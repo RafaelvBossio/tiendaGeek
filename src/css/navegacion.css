@@ -54,6 +54,7 @@
     height: 100%;
     cursor: pointer;
     padding: 0px .5rem;
+    transition: .2s;
 }
 .buscar img:active{
     transform: rotate(-10deg);

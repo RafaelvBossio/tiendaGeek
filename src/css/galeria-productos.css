@@ -10,6 +10,7 @@
     display: flex;
     cursor: pointer;
     flex-direction: row;
+    font-weight: bold;
 }
 .ver-todo a{
     color: var(--color-azul);
@@ -28,29 +29,48 @@
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 85%;
+    width: 85%; 
     margin: 0px auto;
 }
 .producto{
     width: 172px;
-}
-.info-producto{
+    height: fit-content;
     display: flex;
     flex-direction: column;
-    gap: .3px;
-    padding: 3px 2px;
-    height: 80px;
-    text-transform: capitalize;
-}
-.info-producto > p{
-    font-weight: bold;
-}
-.info-producto > p::before{
-    content: "$ ";
 }
 .imagen-producto{
     width: 172px;
     height: 174px;
 }
-.nombre-producto{}
+.imagen-producto img{
+    transition: .5s;
+    border-radius: 50%;
+}
+.imagen-producto img:hover{
+    border-radius: 5%;
+    filter: blur(0px) saturate(1);
+}
+.info-producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100%;
+    padding: 1rem 2px;
+    text-transform: capitalize;
+}
+.nombre-producto{
+    
+}
+.info-producto > p{
+    color: var(--color-negro);
+    font-weight: bold;
+}
+.info-producto > p::before{
+    content: "$ ";
+}
+.info-producto a{
+    color: var(--color-azul);
+    text-decoration: none;
+    font-weight: bold;
+}
 .precio-producto{}
