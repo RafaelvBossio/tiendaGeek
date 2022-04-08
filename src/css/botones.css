@@ -13,7 +13,7 @@
   text-transform: capitalize;
   outline: none;
   border: 2px solid black;
-  border-radius: 1rem;
+  border-radius: .3rem;
   width: 150px;
   padding: .5rem;
   display: flex;

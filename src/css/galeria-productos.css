@@ -1,9 +1,15 @@
+.galeria-productos{
+    margin: 2rem 0px;
+}
 .categoria{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px auto;
     width: 85%;
+}
+.ver-todo{
+    text-transform: capitalize;
 }
 
 .ver-todo{
@@ -51,15 +57,11 @@
     filter: blur(0px) saturate(1);
 }
 .info-producto{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 100%;
     padding: 1rem 2px;
     text-transform: capitalize;
 }
-.nombre-producto{
-    
+.nombre-producto, .info-producto p{
+    margin-bottom: 5px;
 }
 .info-producto > p{
     color: var(--color-negro);

@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="./src/css/navegacion.css" />
     <link rel="stylesheet" href="./src/css/banner.css" />
     <link rel="stylesheet" href="./src/css/galeria-productos.css" />
+    <link rel="stylesheet" href="./src/css/contacto.css" />
+    <link rel="stylesheet" href="./src/css/footer.css">
+
+    <script src="./src/js/galeria-producto.js" defer></script>
   </head>
   <body>
     <header>
@@ -39,7 +43,7 @@
       <section class="banner">
         <h2>febrero promocional</h2>
         <p>productos seleccionados con 33% de descuento</p>
-        <button class="btn primero">Ver consolas</button>
+        <button class="btn segundo">Ver consolas</button>
       </section>
 
       <section class="galeria-productos">
@@ -47,7 +51,7 @@
           <div class="categoria">
             <h3 class="titulo-categoria">Star wars</h3>
             <div class="ver-todo">
-              <a href="#">ver todo</a>
+              <a id="atodo" class="ver-todo" href="#"></a>
               <img src="./src/images/svg/flecha-derecha.svg" alt="flecha" />
             </div>
           </div>
@@ -55,67 +59,85 @@
           <div class="galeria">
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/star-wars/uno.jpg" alt="imagen de producto">
+                <img
+                  src="./src/images/star-wars/uno.jpg"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">Posillo soldado clon</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/star-wars/dos.png" alt="imagen de producto">
+                <img
+                  src="./src/images/star-wars/dos.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">lego darth vader</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/star-wars/tres.png" alt="imagen de producto">
+                <img
+                  src="./src/images/star-wars/tres.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">Figura de Yoda</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/star-wars/cuatro.png" alt="imagen de producto">
+                <img
+                  src="./src/images/star-wars/cuatro.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">Figura saldado clon</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/star-wars/cinco.png" alt="imagen de producto">
+                <img
+                  src="./src/images/star-wars/cinco.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">figura baby yoda</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/star-wars/seis.png" alt="imagen de producto">
+                <img
+                  src="./src/images/star-wars/seis.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">figura darth vader</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
           </div>
@@ -125,7 +147,7 @@
           <div class="categoria">
             <h3 class="titulo-categoria">Consolas</h3>
             <div class="ver-todo">
-              <a href="#">ver todo</a>
+              <a id="atodo" class="verTodo" href="#"></a>
               <img src="./src/images/svg/flecha-derecha.svg" alt="flecha" />
             </div>
           </div>
@@ -133,67 +155,85 @@
           <div class="galeria">
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/consolas/uno.png" alt="imagen de producto">
+                <img
+                  src="./src/images/consolas/uno.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">control xbox one</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/consolas/dos.png" alt="imagen de producto">
+                <img
+                  src="./src/images/consolas/dos.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">play station 5</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/consolas/tres.png" alt="imagen de producto">
+                <img
+                  src="./src/images/consolas/tres.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">nintendo retro</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/consolas/cuatro.png" alt="imagen de producto">
+                <img
+                  src="./src/images/consolas/cuatro.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">mandos NS</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/consolas/cinco.png" alt="imagen de producto">
+                <img
+                  src="./src/images/consolas/cinco.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">consola xbox one</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/consolas/seis.png" alt="imagen de producto">
+                <img
+                  src="./src/images/consolas/seis.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">consola portatil retro</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
           </div>
@@ -203,86 +243,148 @@
           <div class="categoria">
             <h3 class="titulo-categoria">Diversos</h3>
             <div class="ver-todo">
-              <a href="#">ver todo</a>
+              <a id="atodo" class="ver-todo" href="#"></a>
               <img src="./src/images/svg/flecha-derecha.svg" alt="flecha" />
             </div>
           </div>
           <div class="galeria">
-
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/diversos/uno.png" alt="imagen de producto">
+                <img
+                  src="./src/images/diversos/uno.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">playera estampada</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/diversos/dos.png" alt="imagen de producto">
+                <img
+                  src="./src/images/diversos/dos.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">nintendo swhich</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/diversos/tres.png" alt="imagen de producto">
+                <img
+                  src="./src/images/diversos/tres.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">figura de sonic</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/diversos/cuatro.png" alt="imagen de producto">
+                <img
+                  src="./src/images/diversos/cuatro.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">reloj despertador</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/diversos/cinco.png" alt="imagen de producto">
+                <img
+                  src="./src/images/diversos/cinco.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
-                <h4 class="nombre-producto">gafas 3D  </h4>
+                <h4 class="nombre-producto">gafas 3D</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
 
             <div class="producto">
               <div class="imagen-producto">
-                <img src="./src/images/diversos/seis.png" alt="imagen de producto">
+                <img
+                  src="./src/images/diversos/seis.png"
+                  alt="imagen de producto"
+                />
               </div>
               <div class="info-producto">
                 <h4 class="nombre-producto">pikachu de algodon</h4>
                 <p class="precio-producto">60.00</p>
-                <a href="#">ver todo</a>
+                <a id="aproducto" href="#"></a>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="contacto">
-        
+      <section class="contenido">
+        <div class="contacto">
+          <div class="logo">
+            <img src="./Vector.svg" alt="" />
+            <h1 class="logoTexto"><span>Alura</span>Geek</h1>
+          </div>
+
+          <div class="nosotros">
+            <ul class="lista-us">
+              <li><a href="#">quienes somos</a></li>
+              <li><a href="#">politica de privacidad</a></li>
+              <li><a href="#">programa de fidelidad</a></li>
+              <li><a href="#">nuestras tiendas</a></li>
+              <li><a href="#">quiero ser franquiciado</a></li>
+              <li><a href="#">anúncie aqui</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <form class="form" action="#">
+              <h3>Hable con nosotros</h3>
+              <fieldset>
+                <div class="nombre">
+                  <label for="nombre">Nombre</label>
+                  <input class="input-nombre" type="text" id="nombre" required/>
+                </div>
+
+                <textarea
+                  class="textarea"
+                  name="mensaje"
+                  id="mensaje"
+                  cols="60"
+                  rows="8"
+                  placeholder="Escribe tu mensaje"
+                  required
+                ></textarea>
+
+                <button class="btn primero" type="submit">
+                  <p>Enviar mensaje</p>
+                </button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer class="rodapie"></footer>
+    <footer class="rodapie">
+      <h4>Desarrollado por Rafael Bossio</h4>
+      <p>2022</p>
+    </footer>
   </body>
 </html>
