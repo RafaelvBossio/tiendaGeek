@@ -1,0 +1,60 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    padding: 1rem 1rem;
+}
+.seccionUno{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo img{
+    cursor: pointer;
+}
+.logoTexto{
+    font-size: 25px;
+    color: var(--color-negro);
+    cursor: pointer;
+    font-weight: bolder;
+}
+.logoTexto span{
+    color: var(--color-azul);
+}
+.buscar{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 40%;
+    padding: .5rem;
+    outline: none;
+    border: none;
+    background: var(--input-fondo-uno);
+    border-radius: 2rem;
+}
+.buscar input{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0px .5rem;
+    height: 100%;
+    width: 100%;
+}
+.buscar input::placeholder{
+    color: #A2A2A2;
+}
+.buscar img{
+    height: 100%;
+    cursor: pointer;
+    padding: 0px .5rem;
+}
+.buscar img:active{
+    transform: rotate(-10deg);
+}
