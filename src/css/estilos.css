@@ -5,8 +5,9 @@
     --color-negro: #464646;
     --color-gris: #A2A2A2;
     --color-azul: #2A7AE4;
-    --input-fondo-uno: #F5F5F5;
-    --color-fondo: #EAF2FD;
+    --input-fondo-uno: #ffffff;
+    --color-fondo-uno: #E5E5E5;
+    --color-fondo-dos: #EAF2FD;
 }
 
 *{
@@ -24,5 +25,10 @@ h1,h2,h3,h4,h5,h6{
     font-weight: normal;
 }
 .contenedor{
-    background-color: var(--color-fondo);
+    background-color: var(--color-fondo-uno);
+}
+
+main{
+    background-color: var(--color-fondo-uno);
+    text-transform: capitalize;
 }

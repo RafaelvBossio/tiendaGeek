@@ -1,0 +1,52 @@
+.contenedor{
+    background-color: var(--color-fondo-uno);
+}
+
+.login{
+    width: 40%;
+    margin: 0 auto;
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.login h1{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form-sesion{
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.form-sesion > input{
+    height: 40px;
+    padding: 0px 1rem;
+    outline: none;
+    background-color: var(--input-fondo-uno);
+    border-radius: 5px;
+}
+.form-sesion > input::placeholder{
+    font-size: 16px;
+    color: var(--color-gris);
+}
+.form-sesion > input:focus{
+    border-bottom: 2px solid var(--color-azul);
+}
+
+.form-sesion > .btn{
+    width: 100%;
+    font-weight: bold;
+    background-color: var(--color-azul);
+    color: var(--color-blanco);
+    transition: .4s;
+}
+.form-sesion > .btn:active{
+    transition: all .1s;
+    filter: hue-rotate(100deg);
+}

@@ -4,6 +4,7 @@
     justify-content: space-between;
     height: auto;
     padding: 1rem 1rem;
+    background-color: var(--color-fondo-dos);
 }
 .seccionUno{
     width: 100%;

@@ -31,7 +31,7 @@
 }
 
 .primero {
-  border: 2px solid lightblue;
+  border: 2px solid rgb(42, 189, 238);
   color: rgb(15, 16, 36);
 }
 .primero:hover {
