@@ -1,7 +1,6 @@
 .contenedor{
     background-color: var(--color-fondo-uno);
 }
-
 .login{
     width: 40%;
     margin: 0 auto;
@@ -49,4 +48,7 @@
 .form-sesion > .btn:active{
     transition: all .1s;
     filter: hue-rotate(100deg);
+}
+.seccionUno{
+    flex-direction: row-reverse;
 }

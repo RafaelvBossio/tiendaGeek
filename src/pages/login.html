@@ -13,15 +13,17 @@
     <link rel="stylesheet" href="../css/contacto.css" />
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/login/login.css" />
+
+    <script src="../js/login.js" defer></script>
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav class="menu">
+        <div id="logo" class="logo">
+          <img src="../../Vector.svg" alt="" />
+          <h1 class="logoTexto"><span>Alura</span>Geek</h1>
+        </div>
         <div class="seccionUno">
-          <div class="logo">
-            <img src="../../Vector.svg" alt="" />
-            <h1 class="logoTexto"><span>Alura</span>Geek</h1>
-          </div>
           <div class="buscar">
             <input
               type="text"
@@ -31,7 +33,6 @@
             <img src="../images/svg/lupa-buscar.svg" alt="" />
           </div>
         </div>
-        <button class="btn primero"><p>Login</p></button>
       </nav>
     </header>
 
@@ -63,7 +64,7 @@
 
       <section class="contenido">
         <div class="contacto">
-          <div class="logo">
+          <div id="logo2" class="logo">
             <img src="../../Vector.svg" alt="" />
             <h1 class="logoTexto"><span>Alura</span>Geek</h1>
           </div>

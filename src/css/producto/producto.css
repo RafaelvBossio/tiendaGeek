@@ -22,4 +22,18 @@
     justify-content: center;
     padding: 0px 1rem;
     width: 100%;
+    gap: 5px;
+}
+.nombre-concreto{
+    font-size: 52px;
+}
+.precio-concreto{
+    font-weight: bold;
+    font-size: 16px;
+}
+.precio-concreto::before{
+    content: "$ ";
+}
+.descripcion-concreta{
+    font-size: 16px;
 }

@@ -13,18 +13,19 @@
     <link rel="stylesheet" href="./src/css/banner.css" />
     <link rel="stylesheet" href="./src/css/galeria-productos.css" />
     <link rel="stylesheet" href="./src/css/contacto.css" />
-    <link rel="stylesheet" href="./src/css/footer.css">
+    <link rel="stylesheet" href="./src/css/footer.css" />
 
     <script src="./src/js/galeria-producto.js" defer></script>
+    <script src="./src/js/index.js" defer></script>
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav class="menu">
+        <div id="logo" class="logo">
+          <img src="./Vector.svg" alt="" />
+          <h1 class="logoTexto"><span>Alura</span>Geek</h1>
+        </div>
         <div class="seccionUno">
-          <div class="logo">
-            <img src="./Vector.svg" alt="" />
-            <h1 class="logoTexto"><span>Alura</span>Geek</h1>
-          </div>
           <div class="buscar">
             <input
               type="text"
@@ -33,9 +34,8 @@
             />
             <img src="./src/images/svg/lupa-buscar.svg" alt="" />
           </div>
+          <button id="btn-login" class="btn primero"><p>Login</p></button>
         </div>
-
-        <button class="btn primero"><p>Login</p></button>
       </nav>
     </header>
 
@@ -43,11 +43,11 @@
       <section class="banner">
         <h2>febrero promocional</h2>
         <p>productos seleccionados con 33% de descuento</p>
-        <button class="btn segundo">Ver consolas</button>
+        <button id="ver-consolas" class="btn segundo">Ver consolas</button>
       </section>
 
       <section class="galeria-productos">
-        <div class="contenido">
+        <div id="star-wars" class="contenido">
           <div class="categoria">
             <h3 class="titulo-categoria">Star wars</h3>
             <div class="ver-todo">
@@ -143,7 +143,7 @@
           </div>
         </div>
 
-        <div class="contenido">
+        <div id="consolas" class="contenido">
           <div class="categoria">
             <h3 class="titulo-categoria">Consolas</h3>
             <div class="ver-todo">
@@ -239,7 +239,7 @@
           </div>
         </div>
 
-        <div class="contenido">
+        <div id="diversos" class="contenido">
           <div class="categoria">
             <h3 class="titulo-categoria">Diversos</h3>
             <div class="ver-todo">
@@ -337,7 +337,7 @@
 
       <section class="contenido">
         <div class="contacto">
-          <div class="logo">
+          <div id="logo2" class="logo">
             <img src="./Vector.svg" alt="" />
             <h1 class="logoTexto"><span>Alura</span>Geek</h1>
           </div>
@@ -359,7 +359,12 @@
               <fieldset>
                 <div class="nombre">
                   <label for="nombre">Nombre</label>
-                  <input class="input-nombre" type="text" id="nombre" required/>
+                  <input
+                    class="input-nombre"
+                    type="text"
+                    id="nombre"
+                    required
+                  />
                 </div>
 
                 <textarea

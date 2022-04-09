@@ -15,16 +15,16 @@
     <link rel="stylesheet" href="../css/producto/producto.css" />
     <link rel="stylesheet" href="../css/galeria-productos.css" />
 
-    <script src="../js/galeria-producto.js" defer></script>
+    <script src="../js/producto.js" defer></script>
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav class="menu">
+        <div id="logo" class="logo">
+          <img src="../../Vector.svg" alt="" />
+          <h1 class="logoTexto"><span>Alura</span>Geek</h1>
+        </div>
         <div class="seccionUno">
-          <div class="logo">
-            <img src="../../Vector.svg" alt="" />
-            <h1 class="logoTexto"><span>Alura</span>Geek</h1>
-          </div>
           <div class="buscar">
             <input
               type="text"
@@ -33,8 +33,8 @@
             />
             <img src="../images/svg/lupa-buscar.svg" alt="" />
           </div>
+          <button id="login" class="btn primero"><p>Login</p></button>
         </div>
-        <button class="btn primero"><p>Login</p></button>
       </nav>
     </header>
 
@@ -45,9 +45,9 @@
             <img src="../images/star-wars/uno.jpg" alt="" />
           </div>
           <div class="producto-descripcion">
-            <h1>Nombre producto</h1>
-            <p>precio</p>
-            <p>
+            <h1 class="nombre-concreto">Nombre producto</h1>
+            <p class="precio-concreto">precio</p>
+            <p class="descripcion-concreta">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
               explicabo suscipit animi veniam, corrupti laboriosam assumenda
               iusto dignissimos tenetur sit, quos unde nisi eius ab maxime
@@ -155,7 +155,7 @@
 
       <section class="contenido">
         <div class="contacto">
-          <div class="logo">
+          <div id="logo2" class="logo">
             <img src="../../Vector.svg" alt="" />
             <h1 class="logoTexto"><span>Alura</span>Geek</h1>
           </div>

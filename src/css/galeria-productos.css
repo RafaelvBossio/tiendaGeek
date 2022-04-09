@@ -50,10 +50,10 @@
 }
 .imagen-producto img{
     transition: .5s;
-    border-radius: 50%;
+    border-radius: 1rem;
 }
 .imagen-producto img:hover{
-    border-radius: 5%;
+    box-shadow: 2px 2px 20px var(--color-azul);
     filter: blur(0px) saturate(1);
 }
 .info-producto{

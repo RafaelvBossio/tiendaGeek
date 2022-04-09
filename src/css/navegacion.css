@@ -9,8 +9,9 @@
 .seccionUno{
     width: 100%;
     display: flex;
-    gap: 2rem;
-    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    margin: 0px 1rem;
 }
 .logo{
     display: flex;
