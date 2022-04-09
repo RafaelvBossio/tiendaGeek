@@ -1,0 +1,25 @@
+.producto-concreto{
+    background-color: var(--color-fondo-uno);
+}
+.producto-contenido{
+    display: flex;
+    margin: 0 auto;
+    padding: 2rem 0px;
+    width: 80%;
+}
+.producto-imagen{
+    width: 50%;
+    height: 400px;
+}
+.producto-imagen > img{
+    width: auto;
+    height: 100%;
+    border-radius: 1rem;
+}
+.producto-descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 1rem;
+    width: 100%;
+}
