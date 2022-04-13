@@ -1,5 +1,5 @@
 .galeria-productos{
-    margin: 2rem 0px;
+    padding: 2rem 0px;
 }
 .categoria{
     display: flex;
@@ -32,10 +32,11 @@
 
 .galeria{
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
     flex-wrap: wrap;
-    width: 85%; 
+    width: 85%;
     margin: 0px auto;
 }
 .producto{

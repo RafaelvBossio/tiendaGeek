@@ -28,4 +28,5 @@ aProducto.forEach(Element =>{
 
 aTodo.forEach(Element =>{
     Element.textContent = "ver todo";
+    this.addEventListener("click", ()=>{location.href = "../pages/productos.html"})
 });
