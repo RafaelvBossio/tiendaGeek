@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../css/producto/producto.css" />
     <link rel="stylesheet" href="../css/galeria-productos.css" />
     <link rel="stylesheet" href="../css/productos/productos.css" />
+    <link rel="stylesheet" href="../css/producto/agregar-producto.css" />
 
     <script src="../js/producto.js" defer></script>
     <script src="../js/agregarProducto.js" defer></script>
@@ -41,6 +42,45 @@
     </header>
 
     <main class="contenedor">
+      <section class="formulario-contenedor">
+        <div class="formulario__agregarProducto">
+          <form class="form_agregarProducto" action="" method="post">
+            <h1>Agregar nuevo producto</h1>
+
+            <fieldset class="inputs_imagen">
+              <fieldset class="arrastrar_imagen">
+                <div class="inputArrastrar_imagen">
+                  <img src="../images/iconos-src/img.png" alt="" srcset="" />
+                  <label class="label" id="lb-inputFile" for="imagen-file"
+                    >Arrastre para agregar una imagen para el producto</label
+                  >
+                  <input
+                    id="imagen-file"
+                    type="file"
+                    name="imagensubida"
+                    accept="image/png, .jpeg, .jpg"
+                  />
+                </div>
+              </fieldset>
+              <p>o</p>
+              <fieldset class="agregar_imagen">
+                <div class="inputAgregar_imagen">
+                  <label class="label" for="agregar_imagen"
+                    >Buscar en el dispositivo</label
+                  >
+                  <input
+                    id="agregar_imagen"
+                    type="file"
+                    name="imagensubida"
+                    accept="image/png, .jpeg, .jpg"
+                  />
+                </div>
+              </fieldset>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
       <section class="contenido">
         <div class="contacto">
           <div id="logo2" class="logo">
@@ -50,12 +90,12 @@
 
           <div class="nosotros">
             <ul class="lista-us">
-              <li><a href="#">quienes somos</a></li>
-              <li><a href="#">politica de privacidad</a></li>
-              <li><a href="#">programa de fidelidad</a></li>
-              <li><a href="#">nuestras tiendas</a></li>
-              <li><a href="#">quiero ser franquiciado</a></li>
-              <li><a href="#">anúncie aqui</a></li>
+              <li><a href="#">Quienes somos</a></li>
+              <li><a href="#">Politica de privacidad</a></li>
+              <li><a href="#">Programa de fidelidad</a></li>
+              <li><a href="#">Nuestras tiendas</a></li>
+              <li><a href="#">Quiero ser franquiciado</a></li>
+              <li><a href="#">Anúncie aqui</a></li>
             </ul>
           </div>
 
@@ -94,8 +134,8 @@
     </main>
 
     <footer class="rodapie">
-        <h4>Desarrollado por Rafael Bossio</h4>
-        <p>2022</p>
-      </footer>
+      <h4>Desarrollado por Rafael Bossio</h4>
+      <p>2022</p>
+    </footer>
   </body>
 </html>
