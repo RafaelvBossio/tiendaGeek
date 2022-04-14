@@ -1,5 +1,5 @@
 .form_agregarProducto{
-    width: 55%;
+    width: 50%;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
@@ -65,4 +65,26 @@ input#agregar_imagen{
     height: 100%;
     width: 100%;
     opacity: 0%;
+}
+
+.agregar_descripcion{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.agregar_descripcion > button{
+    border: none;
+    background-color: var(--color-azul);
+    color: var(--color-blanco);
+    width: 100%;
+    font-weight: bold;
+}
+.agregar_descripcion > button:hover{
+    background-color: var(--color-azul);
+    filter: hue-rotate(-58deg);
+}
+.agregar_descripcion > button:active{
+    opacity: 80%;
 }

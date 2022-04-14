@@ -44,10 +44,14 @@
     background-color: var(--color-azul);
     color: var(--color-blanco);
     transition: .4s;
+    border: none;
+}
+.form-sesion > .btn:hover{
+    transition: all .1s;
+    filter: hue-rotate(-58deg);
 }
 .form-sesion > .btn:active{
-    transition: all .1s;
-    filter: hue-rotate(100deg);
+    opacity: 80%;
 }
 .seccionUno{
     flex-direction: row-reverse;
