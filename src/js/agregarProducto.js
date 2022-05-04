@@ -1,5 +1,5 @@
-const inputFile = document.getElementById("imagen-file").onclick = function(){return false;};
-const inputFileContenido = document.querySelector("#imagen-file");
+const inputFile = document.getElementById("imagen-uno").onclick = function(){return false;};
+const inputFileContenido = document.querySelector("#imagen-uno");
 const lb_inputFile = document.querySelector("#lb-inputFile");
 
 inputFileContenido.addEventListener("change",()=>{

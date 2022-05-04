@@ -44,18 +44,18 @@
     <main class="contenedor">
       <section class="formulario-contenedor">
         <div class="formulario__agregarProducto">
-          <form class="form_agregarProducto" action="" method="post">
+          <form class="form_agregarProducto" action="./productos.html" method="post">
             <h1>Agregar nuevo producto</h1>
 
             <fieldset class="inputs_imagen">
               <fieldset class="arrastrar_imagen">
                 <div class="inputArrastrar_imagen">
                   <img src="../images/iconos-src/img.png" alt="" srcset="" />
-                  <label class="label" id="lb-inputFile" for="imagen-file"
+                  <label class="label" id="lb-inputFile" for="imagen-uno"
                     >Arrastre para agregar una imagen para el producto</label
                   >
                   <input
-                    id="imagen-file"
+                    id="imagen-uno"
                     type="file"
                     name="imagensubida"
                     accept="image/png, .jpeg, .jpg"
@@ -169,5 +169,6 @@
       <h4>Desarrollado por Rafael Bossio</h4>
       <p>2022</p>
     </footer>
+    <script src="../js/conexion/servidor.js"></script>
   </body>
 </html>
