@@ -66,6 +66,9 @@ input#agregar_imagen{
     width: 100%;
     opacity: 0%;
 }
+.urlImagen{
+    margin-top: 1rem;
+}
 
 .agregar_descripcion{
     margin: 0px;

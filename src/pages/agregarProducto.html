@@ -44,7 +44,7 @@
     <main class="contenedor">
       <section class="formulario-contenedor">
         <div class="formulario__agregarProducto">
-          <form class="form_agregarProducto" action="./productos.html" method="post">
+          <form class="form_agregarProducto" method="POST" data-form>
             <h1>Agregar nuevo producto</h1>
 
             <fieldset class="inputs_imagen">
@@ -59,6 +59,7 @@
                     type="file"
                     name="imagensubida"
                     accept="image/png, .jpeg, .jpg"
+                    disabled
                   />
                 </div>
               </fieldset>
@@ -73,10 +74,25 @@
                     type="file"
                     name="imagensubida"
                     accept="image/png, .jpeg, .jpg"
+                    disabled
                   />
+                </div>
+                <div class="urlImagen nombre">
+                  <fieldset class="agregar_imagen">
+                    <input
+                      id="imagen-url"
+                      class="input-nombre"
+                      type="text"
+                      pattern="(http[s]?:\/\/)?([^\/\s]+\/)(.*)"
+                      placeholder="Ingrese URL de la imagen"
+                      title="Asegurate que es una URL de una imagen"
+                      required
+                    />
+                  </fieldset>
                 </div>
               </fieldset>
             </fieldset>
+
             <fieldset class="agregar_descripcion">
               <div class="nombre">
                 <label for="nombre">Nombre del producto</label>
@@ -85,6 +101,7 @@
                   type="text"
                   id="nombre"
                   required
+                  autocomplete="true"
                 />
               </div>
 
@@ -92,22 +109,23 @@
                 <label for="nombre">Precio del producto</label>
                 <input
                   class="input-nombre"
-                  type="text"
+                  type="number"
                   id="nombre"
                   required
                 />
               </div>
 
               <textarea
-                  class="textarea"
-                  name="mensaje"
-                  id="mensaje"
-                  cols="60"
-                  rows="8"
-                  placeholder="Descripcion del producto"
-                  required
-                ></textarea>
-                <button type="submit" class="btn primero">Agregar</button>
+                class="textarea"
+                name="mensaje"
+                id="mensaje"
+                cols="60"
+                rows="8"
+                placeholder="Descripcion del producto"
+                minlength="8"
+                required
+              ></textarea>
+              <button type="submit" class="btn primero">Agregar</button>
             </fieldset>
           </form>
         </div>

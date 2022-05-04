@@ -4,7 +4,7 @@ producto.classList.add("producto");
 const crearProducto = `
 <div class="imagen-producto">
   <img
-    src="../../src/images/star-wars/uno.jpg"
+    src="https://cdn.shoplightspeed.com/shops/607723/files/30902316/poster-new-york-wonder-city.jpg"
     alt="imagen de producto"
   />
 </div>
