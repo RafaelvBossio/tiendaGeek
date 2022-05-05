@@ -1,0 +1,19 @@
+{
+  "name": "tiendageek",
+  "version": "1.0.0",
+  "description": "Reto de Alura Latam de Construir un e-commerce de una tienda Geek",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelvBossio/tiendaGeek.git"
+  },
+  "author": "Rafel vargas Bossio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaelvBossio/tiendaGeek/issues"
+  },
+  "homepage": "https://github.com/RafaelvBossio/tiendaGeek#readme"
+}
