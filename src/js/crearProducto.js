@@ -1,7 +1,7 @@
 import { productosServicios } from "./conexion/servidor.js";
 const galeriaProductos = document.querySelector("[data-productos]");
 
-const mostrarProductos = (urlImg, nombreProducto, precioProducto) => {
+const mostrarProductos = (urlImg, nombreProducto, precioProducto, id) => {
   const producto = document.createElement("li");
   producto.classList.add("producto");
   const crearProducto = `
@@ -14,7 +14,7 @@ const mostrarProductos = (urlImg, nombreProducto, precioProducto) => {
 <div class="info-producto">
   <h4 class="nombre-producto">${nombreProducto}</h4>
   <p class="precio-producto">${precioProducto}</p>
-  <a id="aproducto" href="#"></a>
+  <a id="aproducto" href="./producto.html?id=${id}">Ver producto</a>
 </div>
 `;
 
@@ -24,6 +24,6 @@ const mostrarProductos = (urlImg, nombreProducto, precioProducto) => {
 
 productosServicios.listaProductos().then((data) => {
   data.forEach((data) => {
-    mostrarProductos(data.urlImagen, data.nombre, data.precio);
+    mostrarProductos(data.urlImagen, data.nombre, data.precio, data.id);
   });
 });
