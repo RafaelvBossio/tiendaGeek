@@ -4,6 +4,12 @@ const listaProductos = () => {
   );
 };
 
+const detallesProducto = (id) => {
+  return fetch(`http://localhost:3000/productos/${id}`).then((producto) =>
+    producto.json());
+};
+
 export const productosServicios = {
   listaProductos,
+  detallesProducto,
 };

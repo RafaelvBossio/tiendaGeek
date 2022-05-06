@@ -12,7 +12,7 @@
     height: 400px;
 }
 .producto-imagen > img{
-    width: auto;
+    width: 100%;
     height: 100%;
     border-radius: 1rem;
 }

@@ -94,7 +94,7 @@
 
             <fieldset class="agregar_descripcion">
               <div class="nombre">
-                <label for="nombre">Nombre del producto</label>
+                <label for="nombre">Nombre</label>
                 <input
                   class="input-nombre"
                   type="text"
@@ -105,13 +105,24 @@
               </div>
 
               <div class="nombre">
-                <label for="nombre">Precio del producto</label>
+                <label for="nombre">Precio</label>
                 <input
                   class="input-nombre"
                   type="number"
                   id="nombre"
                   required
                 />
+              </div>
+
+              <div class="nombre">
+                <label for="nombre">Categoria</label>
+                <select name="categoria" id="caregoria" class="input-nombre" required>
+                  <option value="0" selected disabled>Seleccionar</option>
+                  <option value="1">Hogar</option>
+                  <option value="2">Jugete</option>
+                  <option value="3">tecnologia</option>
+                  <option value="4">coleccionable</option>
+                </select>
               </div>
 
               <textarea
