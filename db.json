@@ -5,35 +5,40 @@
       "nombre": "Xbox series s",
       "precio": 18.15,
       "descripcion": "Unspecified injury of unspecified renal vein, subs encntr",
-      "id": "com.wunderground.Cardify"
+      "id": "com.wunderground.Cardify",
+      "categoria": "Consola"
     },
     {
       "urlImagen": "http://dummyimage.com/250x100.png",
       "nombre": "Harper",
       "precio": 94.17,
       "descripcion": "Traumatic rupture of right radiocarpal ligament, subs encntr",
-      "id": "com.time.Ronstring"
+      "id": "com.time.Ronstring",
+      "categoria": "otro"
     },
     {
       "urlImagen": "http://dummyimage.com/122x100.png/cc0000/ffffff",
       "nombre": "Rainer",
       "precio": 83.96,
       "descripcion": "Other specified acquired deformities of right upper arm",
-      "id": "org.gmpg.Ronstring"
+      "id": "org.gmpg.Ronstring",
+      "categoria": "otro"
     },
     {
       "urlImagen": "http://dummyimage.com/146x100.png/dddddd/000000",
       "nombre": "Stella",
       "precio": 69.5,
       "descripcion": "Path fracture in neoplastic disease, left tibia, sequela",
-      "id": "com.cnet.Fixflex"
+      "id": "com.cnet.Fixflex",
+      "categoria": "Consola"
     },
     {
       "urlImagen": "http://dummyimage.com/155x100.png/ff4444/ffffff",
       "nombre": "Yulma",
       "precio": 16.51,
       "descripcion": "Other fracture of T9-T10 vertebra, sequela",
-      "id": "com.twitpic.Job"
+      "id": "com.twitpic.Job",
+      "categoria": "Consola"
     }
   ]
 }
