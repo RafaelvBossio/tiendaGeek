@@ -27,8 +27,21 @@ const detallesProducto = (id) => {
   );
 };
 
+const categoriaProducto = (categoria) => {
+  return fetch(`http://localhost:3000/productos/${categoria}`).then(
+    (producto) => producto.json()
+  );
+};
+
+const eliminarProducto = (id) => {
+  return fetch(`http://localhost:3000/productos/${id}`, {
+    method: "DELETE",
+  });
+};
+
 export const productosServicios = {
   listaProductos,
   detallesProducto,
   crearProducto,
+  eliminarProducto,
 };

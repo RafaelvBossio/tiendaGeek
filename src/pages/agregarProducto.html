@@ -41,7 +41,7 @@
     <main class="contenedor">
       <section class="formulario-contenedor">
         <div class="formulario__agregarProducto">
-          <form class="form_agregarProducto" action="productos.html" method="POST" data-form>
+          <form class="form_agregarProducto" action="./productos.html" method="POST" data-form>
             <h1>Agregar nuevo producto</h1>
 
             <fieldset class="inputs_imagen">
@@ -97,6 +97,7 @@
                   class="input-nombre"
                   type="text"
                   id="nombre"
+                  maxlength="29"
                   required
                   autocomplete="true"
                 />
@@ -119,6 +120,7 @@
                   <option value="coleccion">Coleccionable</option>
                   <option value="consola">Consolas</option>
                   <option value="starWars">Star wars</option>
+                  <option value="juguete">Juguete</option>
                   <option value="otro">Otro</option>
                 </select>
               </div>

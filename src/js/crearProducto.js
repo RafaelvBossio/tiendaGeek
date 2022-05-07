@@ -13,6 +13,8 @@ formulario.addEventListener("submit", (e) => {
 
   productosServicios
     .crearProducto(imagen, nombre, precio, categoria, descripcion)
-    .then((respuesta) => {})
+    .then((respuesta) => {
+      window.location.href ="../pages/productos.html";
+    })
     .catch((err) => alert("Ocurrio un problema"));
 });

@@ -1,22 +1,6 @@
 {
   "productos": [
     {
-      "imagen": "https://m.media-amazon.com/images/I/71NBQ2a52CL._SL1500_.jpg",
-      "nombre": "Xbox series s",
-      "precio": 18.15,
-      "descripcion": "Unspecified injury of unspecified renal vein, subs encntr",
-      "id": "com.wunderground.Cardify",
-      "categoria": "Consola"
-    },
-    {
-      "imagen": "https://poptv.orange.es/wp-content/uploads/sites/3/2019/12/d.jpg",
-      "nombre": "Poster Star Wars",
-      "precio": "20.00",
-      "descripcion": "Póster promocional de la serie de star wars",
-      "id": "df87a9e2-ced5-406f-af57-15ee2b11a979",
-      "categoria": "starWars"
-    },
-    {
       "imagen": "https://i.ibb.co/dD0p857/dos.png",
       "nombre": "Play Station 5",
       "precio": "550.000",
@@ -38,6 +22,126 @@
       "precio": "630.000",
       "descripcion": "La última Xbox lanzada por Microsoft hasta el momento.",
       "id": "ee32465a-7837-43bb-87df-f666021a7d26",
+      "categoria": "consola"
+    },
+    {
+      "imagen": "https://i.ibb.co/RSTRRd6/cuatro.png",
+      "nombre": "Mandos Nintendo Switch",
+      "precio": "320.000",
+      "descripcion": "Mandos azul y Rojo para la consola Nintendo Switch",
+      "id": "00d0dea8-bcd9-47cd-8aa8-1a605ef10957",
+      "categoria": "consola"
+    },
+    {
+      "imagen": "https://i.ibb.co/9T8PhSf/seis.png",
+      "nombre": "Consola Retro Portatil",
+      "precio": "100.00",
+      "descripcion": "Consola Retro Portátil de colección",
+      "id": "f29d7a29-b604-4032-a600-2914bd997917",
+      "categoria": "consola"
+    },
+    {
+      "imagen": "https://i.ibb.co/GRmsqxP/tres.png",
+      "nombre": "Consola Nintendo",
+      "precio": "200.000",
+      "descripcion": "Con sola de Nintendo para colección",
+      "id": "aa35551f-3994-484d-85c5-c7c8591d1b1f",
+      "categoria": "coleccion"
+    },
+    {
+      "imagen": "https://i.ibb.co/VQVhbgc/uno.png",
+      "nombre": "Suter Estampado",
+      "precio": "10.00",
+      "descripcion": "Suéter estampado con letras en japones.",
+      "id": "66435214-167f-4c3e-ab2b-374497be2c44",
+      "categoria": "otro"
+    },
+    {
+      "imagen": "https://i.ibb.co/25zTpmX/tres.png",
+      "nombre": "Figura de Sony",
+      "precio": "30.00",
+      "descripcion": "Figura del personaje famoso de un videojuego llamado Sony.",
+      "id": "6e6de7f7-74c6-4f04-8bd3-8b7ffb952a76",
+      "categoria": "juguete"
+    },
+    {
+      "imagen": "https://i.ibb.co/X8DD1Jm/seis.png",
+      "nombre": "Pikachu",
+      "precio": "80.00",
+      "descripcion": "Peluche gigante de Pikachu.",
+      "id": "878a88aa-6a12-4e47-bc52-e7a88e02a183",
+      "categoria": "otro"
+    },
+    {
+      "imagen": "https://i.ibb.co/D11W4WR/cinco.png",
+      "nombre": "Gafas 3D",
+      "precio": "400.00",
+      "descripcion": "Gafas para jugar en 3D.",
+      "id": "413f59ef-95a3-465d-856f-94b11eca9b7a",
+      "categoria": "consola"
+    },
+    {
+      "imagen": "https://i.ibb.co/DD87Bh7/cuatro.png",
+      "nombre": "Reloj Despertador",
+      "precio": "100.000",
+      "descripcion": "Reloj Despertador retro de colección.",
+      "id": "13151364-e3a9-4421-a0ba-41f6433f374c",
+      "categoria": "coleccion"
+    },
+    {
+      "imagen": "https://i.ibb.co/8DrqkWx/uno.jpg",
+      "nombre": "Posillo de soldado Star wars",
+      "precio": "20.00",
+      "descripcion": "Posillo de soldado de Star wars.",
+      "id": "0a167e3f-ad86-45e1-b824-870612727113",
+      "categoria": "starWars"
+    },
+    {
+      "imagen": "https://i.ibb.co/yV0sVHp/tres.png",
+      "nombre": "Figura de Yoda",
+      "precio": "120.000",
+      "descripcion": "Figura de Yoda de star wars",
+      "id": "460e24f5-c6b1-4922-9d33-cb6457e2e622",
+      "categoria": "starWars"
+    },
+    {
+      "imagen": "https://i.ibb.co/BGYPTKy/seis.png",
+      "nombre": "Figura Anakin Skywalker",
+      "precio": "200.000",
+      "descripcion": "Figura representativa de Anakin Skywalker",
+      "id": "cd054b7b-a404-4a56-a3a4-f9cd17c18a43",
+      "categoria": "starWars"
+    },
+    {
+      "imagen": "https://i.ibb.co/0XhCkXB/dos.png",
+      "nombre": "Darth Vader - Stormtroopers",
+      "precio": "50.00",
+      "descripcion": "Cascos representativos Darth Vader y Stormtroopers en color negro.",
+      "id": "a080ebf4-6b3a-436e-b47a-81b04329cf77",
+      "categoria": "starWars"
+    },
+    {
+      "imagen": "https://i.ibb.co/FhNG8Y0/cinco.png",
+      "nombre": "Baby Yoda",
+      "precio": "400.000",
+      "descripcion": "Figura representativa de Baby Yoda",
+      "id": "c6f236ff-2d96-4765-864e-8b935baf082d",
+      "categoria": "juguete"
+    },
+    {
+      "imagen": "https://i.ibb.co/zPhx2Gx/cuatro.png",
+      "nombre": "Stormtrooper",
+      "precio": "100.000",
+      "descripcion": "Figura representativa de Stormtrooper.",
+      "id": "f0dc4f35-9584-4341-acf3-fe1b0d332589",
+      "categoria": "starWars"
+    },
+    {
+      "imagen": "https://i.ibb.co/bK7pwxF/dos.png",
+      "nombre": "Nintendo Switch",
+      "precio": "700.000",
+      "descripcion": "Consola Nintendo Switch.",
+      "id": "e2eedcda-6253-4cad-97d6-0850a37e6d56",
       "categoria": "consola"
     }
   ]

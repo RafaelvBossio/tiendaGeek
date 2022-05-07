@@ -1,4 +1,5 @@
 import { productosServicios } from "./conexion/servidor.js";
+import { eliminar } from "./eliminarProducto.js";
 const galeriaProductos = document.querySelector("[data-productos]");
 
 const mostrarProductos = (
@@ -12,10 +13,9 @@ const mostrarProductos = (
   producto.classList.add("producto");
   const mostrarProducto = `
 <div class="imagen-producto">
-  <img
-    src="${imagen}"
-    alt="imagen de producto"
-  />
+<a id="${id}" href="./producto.html?id=${id}?catg=${categoria}">
+  <img src="${imagen}" alt="imagen de producto" />
+</a>
 <div class="controles">
   <i class="fa-solid fa-trash-can" id="eliminar"></i>
   <i class="fa-solid fa-pen-to-square" id="editar"></i>
@@ -24,7 +24,6 @@ const mostrarProductos = (
 <div class="info-producto">
   <h4 class="nombre-producto">${nombreProducto}</h4>
   <p class="precio-producto">${precioProducto}</p>
-  <a id="aproducto" href="./producto.html?id=${id}?catg=${categoria}">Ver producto</a>
 </div>
 `;
 
@@ -42,6 +41,7 @@ productosServicios.listaProductos().then((data) => {
       data.categoria
     );
   });
+  eliminar.eliminarProducto(  );
 });
 
 export const mostrarProducto = {
