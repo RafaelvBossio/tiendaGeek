@@ -2,7 +2,7 @@ import { productosServicios } from "./conexion/servidor.js";
 const galeriaProductos = document.querySelector("[data-productos]");
 
 const mostrarProductos = (
-  urlImg,
+  imagen,
   nombreProducto,
   precioProducto,
   id,
@@ -13,9 +13,13 @@ const mostrarProductos = (
   const mostrarProducto = `
 <div class="imagen-producto">
   <img
-    src="${urlImg}"
+    src="${imagen}"
     alt="imagen de producto"
   />
+<div class="controles">
+  <i class="fa-solid fa-trash-can" id="eliminar"></i>
+  <i class="fa-solid fa-pen-to-square" id="editar"></i>
+</div>
 </div>
 <div class="info-producto">
   <h4 class="nombre-producto">${nombreProducto}</h4>
@@ -31,7 +35,7 @@ const mostrarProductos = (
 productosServicios.listaProductos().then((data) => {
   data.forEach((data) => {
     mostrarProductos(
-      data.urlImagen,
+      data.imagen,
       data.nombre,
       data.precio,
       data.id,

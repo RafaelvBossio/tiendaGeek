@@ -16,8 +16,6 @@
     <link rel="stylesheet" href="../css/galeria-productos.css" />
     <link rel="stylesheet" href="../css/productos/productos.css" />
     <link rel="stylesheet" href="../css/producto/agregar-producto.css" />
-
-    
   </head>
   <body>
     <header id="header">
@@ -43,7 +41,7 @@
     <main class="contenedor">
       <section class="formulario-contenedor">
         <div class="formulario__agregarProducto">
-          <form class="form_agregarProducto" method="POST" data-form>
+          <form class="form_agregarProducto" action="productos.html" method="POST" data-form>
             <h1>Agregar nuevo producto</h1>
 
             <fieldset class="inputs_imagen">
@@ -105,40 +103,38 @@
               </div>
 
               <div class="nombre">
-                <label for="nombre">Precio</label>
+                <label for="precio">Precio</label>
                 <input
                   class="input-nombre"
                   type="number"
-                  id="nombre"
+                  id="precio"
                   required
                 />
               </div>
 
               <div class="nombre">
                 <label for="nombre">Categoria</label>
-                <select name="categoria" id="caregoria" class="input-nombre" required>
-                  <option value="0" selected disabled>Seleccionar</option>
-                  <option value="1">Hogar</option>
-                  <option value="2">Jugete</option>
-                  <option value="3">Tecnologia</option>
-                  <option value="4">Coleccionable</option>
-                  <option value="5">Consolas</option>
-                  <option value="6">Star wars</option>
+                <select name="categoria" id="categoria" class="input-nombre">
+                  <option value="otro" selected disabled>Seleccionar</option>
+                  <option value="coleccion">Coleccionable</option>
+                  <option value="consola">Consolas</option>
+                  <option value="starWars">Star wars</option>
+                  <option value="otro">Otro</option>
                 </select>
               </div>
 
               <textarea
                 class="textarea"
                 name="mensaje"
-                id="mensaje"
+                id="descripcion"
                 cols="60"
                 rows="8"
                 placeholder="Descripcion del producto"
                 minlength="8"
                 required
               ></textarea>
-              <button type="submit" class="btn primero">Agregar</button>
             </fieldset>
+            <button type="submit" class="btn primero">Agregar</button>
           </form>
         </div>
       </section>
@@ -199,8 +195,14 @@
       <h4>Desarrollado por Rafael Bossio</h4>
       <p>2022</p>
     </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+      integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="../js/agregarProducto.js"></script>
     <script src="../js/producto.js"></script>
-    <script src="../js/crearProducto.js"></script>
+    <script type="module" src="../js/crearProducto.js"></script>
   </body>
 </html>

@@ -33,13 +33,14 @@
 .galeria{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 1rem;
+    justify-items: flex-start;
+    gap: 1.4rem;
     flex-wrap: wrap;
     width: 85%;
     margin: 0px auto;
 }
 .producto{
+    position: relative;
     width: 172px;
     height: fit-content;
     display: flex;

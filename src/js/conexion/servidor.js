@@ -4,7 +4,7 @@ const listaProductos = () => {
   );
 };
 
-const crearProducto = (imagen, nombre, precio, descripcion, categoria) => {
+const crearProducto = (imagen, nombre, precio, categoria, descripcion) => {
   return fetch("http://localhost:3000/productos", {
     method: "POST",
     headers: {
@@ -23,10 +23,12 @@ const crearProducto = (imagen, nombre, precio, descripcion, categoria) => {
 
 const detallesProducto = (id) => {
   return fetch(`http://localhost:3000/productos/${id}`).then((producto) =>
-    producto.json());
+    producto.json()
+  );
 };
 
 export const productosServicios = {
   listaProductos,
   detallesProducto,
+  crearProducto,
 };

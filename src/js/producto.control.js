@@ -18,7 +18,7 @@ const obtenerInfo = () => {
   const infoProducto = productosServicios
     .detallesProducto(id)
     .then((producto) => {
-      imagen.src = producto.urlImagen;
+      imagen.src = producto.imagen;
       nombre.textContent = producto.nombre;
       precio.textContent = producto.precio;
       info.textContent = producto.descripcion;

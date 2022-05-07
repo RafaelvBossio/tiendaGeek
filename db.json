@@ -1,7 +1,7 @@
 {
   "productos": [
     {
-      "urlImagen": "https://m.media-amazon.com/images/I/71NBQ2a52CL._SL1500_.jpg",
+      "imagen": "https://m.media-amazon.com/images/I/71NBQ2a52CL._SL1500_.jpg",
       "nombre": "Xbox series s",
       "precio": 18.15,
       "descripcion": "Unspecified injury of unspecified renal vein, subs encntr",
@@ -9,36 +9,36 @@
       "categoria": "Consola"
     },
     {
-      "urlImagen": "http://dummyimage.com/250x100.png",
-      "nombre": "Harper",
-      "precio": 94.17,
-      "descripcion": "Traumatic rupture of right radiocarpal ligament, subs encntr",
-      "id": "com.time.Ronstring",
-      "categoria": "otro"
+      "imagen": "https://poptv.orange.es/wp-content/uploads/sites/3/2019/12/d.jpg",
+      "nombre": "Poster Star Wars",
+      "precio": "20.00",
+      "descripcion": "Póster promocional de la serie de star wars",
+      "id": "df87a9e2-ced5-406f-af57-15ee2b11a979",
+      "categoria": "starWars"
     },
     {
-      "urlImagen": "http://dummyimage.com/122x100.png/cc0000/ffffff",
-      "nombre": "Rainer",
-      "precio": 83.96,
-      "descripcion": "Other specified acquired deformities of right upper arm",
-      "id": "org.gmpg.Ronstring",
-      "categoria": "otro"
+      "imagen": "https://i.ibb.co/dD0p857/dos.png",
+      "nombre": "Play Station 5",
+      "precio": "550.000",
+      "descripcion": "Consola de última generación creada por Sony",
+      "id": "72980c9c-7ebb-4c56-854d-606bfd3be5c1",
+      "categoria": "consola"
     },
     {
-      "urlImagen": "http://dummyimage.com/146x100.png/dddddd/000000",
-      "nombre": "Stella",
-      "precio": 69.5,
-      "descripcion": "Path fracture in neoplastic disease, left tibia, sequela",
-      "id": "com.cnet.Fixflex",
-      "categoria": "Consola"
+      "imagen": "https://i.ibb.co/LRTJPpr/uno.png",
+      "nombre": "Control de Xbox ONE",
+      "precio": "300.000",
+      "descripcion": "Control para la Xbox One series s",
+      "id": "5961247e-10f9-48db-9fb1-6046816fdaa1",
+      "categoria": "consola"
     },
     {
-      "urlImagen": "http://dummyimage.com/155x100.png/ff4444/ffffff",
-      "nombre": "Yulma",
-      "precio": 16.51,
-      "descripcion": "Other fracture of T9-T10 vertebra, sequela",
-      "id": "com.twitpic.Job",
-      "categoria": "Consola"
+      "imagen": "https://i.ibb.co/Jy642Hx/cinco.png",
+      "nombre": "Xbox Series S",
+      "precio": "630.000",
+      "descripcion": "La última Xbox lanzada por Microsoft hasta el momento.",
+      "id": "ee32465a-7837-43bb-87df-f666021a7d26",
+      "categoria": "consola"
     }
   ]
 }

@@ -9,11 +9,3 @@ inputFileContenido.addEventListener("change", () => {
     lb_inputFile.textContent = inputFileContenido.webkitEntries[0].name;
   }
 });
-
-const form = document.querySelector("[data-form]")
-
-form.addEventListener("submit", (e)=>{
-    e.preventDefault();
-
-    location.href = "../pages/productos.html";
-})
