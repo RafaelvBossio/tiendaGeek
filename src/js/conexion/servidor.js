@@ -1,9 +1,11 @@
+//todos Los Productos
 const listaProductos = () => {
   return fetch("http://localhost:3000/productos").then((respuesta) =>
     respuesta.json()
   );
 };
 
+//Crear Producto
 const crearProducto = (imagen, nombre, precio, categoria, descripcion) => {
   return fetch("http://localhost:3000/productos", {
     method: "POST",
@@ -21,6 +23,7 @@ const crearProducto = (imagen, nombre, precio, categoria, descripcion) => {
   });
 };
 
+//Informacion de un producto
 const detallesProducto = (id) => {
   return fetch(`http://localhost:3000/productos/${id}`).then((producto) =>
     producto.json()
@@ -33,18 +36,14 @@ const categoriaProducto = (categoria) => {
   );
 };
 
+//Eliminar un producto por su ID
 const eliminarProducto = (id) => {
   return fetch(`http://localhost:3000/productos/${id}`, {
     method: "DELETE",
   });
 };
 
-const detalleProducto = (id) => {
-  return fetch(`http://localhost:3000/perfil/${id}`).then((respuesta) => {
-    return respuesta.json();
-  });
-};
-
+//Actualizar un producto
 const actualizarProducto = (imagen, nombre, precio, categoria, descripcion, id) => {
   return fetch(`http://localhost:3000/productos/${id}`, {
     method: "PUT",

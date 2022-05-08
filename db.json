@@ -144,5 +144,11 @@
       "id": "e2eedcda-6253-4cad-97d6-0850a37e6d56",
       "categoria": "consola"
     }
+  ],
+  "admin": [
+    {
+      "email": "admin@gmail.com",
+      "senha": "admin2022"
+    }
   ]
 }
