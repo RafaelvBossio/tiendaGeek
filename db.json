@@ -46,7 +46,7 @@
       "precio": "200.000",
       "descripcion": "Con sola de Nintendo para colección",
       "id": "aa35551f-3994-484d-85c5-c7c8591d1b1f",
-      "categoria": "coleccion"
+      "categoria": "consola"
     },
     {
       "imagen": "https://i.ibb.co/VQVhbgc/uno.png",
@@ -62,7 +62,7 @@
       "precio": "30.00",
       "descripcion": "Figura del personaje famoso de un videojuego llamado Sony.",
       "id": "6e6de7f7-74c6-4f04-8bd3-8b7ffb952a76",
-      "categoria": "juguete"
+      "categoria": "otro"
     },
     {
       "imagen": "https://i.ibb.co/X8DD1Jm/seis.png",
@@ -78,7 +78,7 @@
       "precio": "400.00",
       "descripcion": "Gafas para jugar en 3D.",
       "id": "413f59ef-95a3-465d-856f-94b11eca9b7a",
-      "categoria": "consola"
+      "categoria": "otro"
     },
     {
       "imagen": "https://i.ibb.co/DD87Bh7/cuatro.png",
@@ -86,7 +86,7 @@
       "precio": "100.000",
       "descripcion": "Reloj Despertador retro de colección.",
       "id": "13151364-e3a9-4421-a0ba-41f6433f374c",
-      "categoria": "coleccion"
+      "categoria": "otro"
     },
     {
       "imagen": "https://i.ibb.co/8DrqkWx/uno.jpg",
@@ -142,7 +142,7 @@
       "precio": "700.000",
       "descripcion": "Consola Nintendo Switch.",
       "id": "e2eedcda-6253-4cad-97d6-0850a37e6d56",
-      "categoria": "consola"
+      "categoria": "otro"
     }
   ],
   "admin": [

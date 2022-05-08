@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="./src/css/galeria-productos.css" />
     <link rel="stylesheet" href="./src/css/contacto.css" />
     <link rel="stylesheet" href="./src/css/footer.css" />
+    <link rel="stylesheet" href="./src/css/producto/producto.css" />
     <link rel="stylesheet" href="./src/css/producto/productos.css" />
 
     <script src="./src/js/galeria-producto.js" defer></script>
     <script src="./src/js/index.js" defer></script>
-    <script src="./src/js/producto.js" defer></script>
   </head>
   <body>
     <header id="header">
@@ -58,97 +58,8 @@
             </div>
           </div>
 
-        <!--Prototipo para mostrar los productos dinamicamente-->
-          <ul class="galeria">
-            <li class="producto">
-              <div class="imagen-producto">
-                <a id="${id}" href="./producto.html?id=${id}?catg=${categoria}">
-                  <img src="${imagen}" alt="imagen de producto" />
-                </a>
-                <div class="controles">
-                  <i class="fa-solid fa-trash-can" id="eliminar"></i>
-                  <a href="../pages/editarProducto.html?id=${id}">
-                    <i class="fa-solid fa-pen-to-square" id="editar"></i>
-                  </a>
-                </div>
-                </div>
-                <div class="info-producto">
-                  <h4 class="nombre-producto">${nombreProducto}</h4>
-                  <p class="precio-producto">${precioProducto}</p>
-                </div>
-            </li>
-            <!--hasta aqui-->
-            
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/star-wars/dos.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">lego darth vader</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/star-wars/tres.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">Figura de Yoda</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/star-wars/cuatro.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">Figura saldado clon</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/star-wars/cinco.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">figura baby yoda</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/star-wars/seis.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">figura darth vader</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-          </ul>
+          <!--Prototipo para mostrar los productos dinamicamente-->
+          <ul class="galeria" data-starWars></ul>
         </div>
 
         <div id="consolas" class="contenido">
@@ -160,91 +71,7 @@
             </div>
           </div>
 
-          <ul class="galeria">
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/consolas/uno.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">control xbox one</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/consolas/dos.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">play station 5</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/consolas/tres.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">nintendo retro</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/consolas/cuatro.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">mandos NS</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/consolas/cinco.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">consola xbox one</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/consolas/seis.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">consola portatil retro</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-          </ul>
+          <ul class="galeria" data-consolas></ul>
         </div>
 
         <div id="diversos" class="contenido">
@@ -256,91 +83,7 @@
             </div>
           </div>
 
-          <ul class="galeria">
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/diversos/uno.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">playera estampada</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/diversos/dos.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">nintendo swhich</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/diversos/tres.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">figura de sonic</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/diversos/cuatro.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">reloj despertador</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/diversos/cinco.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">gafas 3D</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="./src/images/diversos/seis.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">pikachu de algodon</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-          </ul>
+          <ul class="galeria" data-diversos></ul>
         </div>
       </section>
 
@@ -404,5 +147,6 @@
       src="https://kit.fontawesome.com/e40324f7c7.js"
       crossorigin="anonymous"
     ></script>
+    <script type="module" src="./src/js/mostrarCategoria.js"></script>
   </body>
 </html>
