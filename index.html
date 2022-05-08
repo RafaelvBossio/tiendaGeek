@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./src/css/galeria-productos.css" />
     <link rel="stylesheet" href="./src/css/contacto.css" />
     <link rel="stylesheet" href="./src/css/footer.css" />
+    <link rel="stylesheet" href="./src/css/producto/productos.css" />
 
     <script src="./src/js/galeria-producto.js" defer></script>
     <script src="./src/js/index.js" defer></script>
@@ -53,23 +54,28 @@
             <h3 class="titulo-categoria">Star wars</h3>
             <div class="ver-todo">
               <a id="atodo" class="ver-todo" href="#"></a>
-              <img src="./src/images/svg/flecha-derecha.svg" alt="flecha" />
+              <i class="fa-solid fa-arrow-right"></i>
             </div>
           </div>
 
+        <!--Prototipo para mostrar los productos dinamicamente-->
           <ul class="galeria">
             <li class="producto">
               <div class="imagen-producto">
-                <img
-                  src="./src/images/star-wars/uno.jpg"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">Posillo soldado clon</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
+                <a id="${id}" href="./producto.html?id=${id}?catg=${categoria}">
+                  <img src="${imagen}" alt="imagen de producto" />
+                </a>
+                <div class="controles">
+                  <i class="fa-solid fa-trash-can" id="eliminar"></i>
+                  <a href="../pages/editarProducto.html?id=${id}">
+                    <i class="fa-solid fa-pen-to-square" id="editar"></i>
+                  </a>
+                </div>
+                </div>
+                <div class="info-producto">
+                  <h4 class="nombre-producto">${nombreProducto}</h4>
+                  <p class="precio-producto">${precioProducto}</p>
+                </div>
             </li>
 
             <li class="producto">
@@ -149,7 +155,7 @@
             <h3 class="titulo-categoria">Consolas</h3>
             <div class="ver-todo">
               <a id="atodo" class="verTodo" href="#"></a>
-              <img src="./src/images/svg/flecha-derecha.svg" alt="flecha" />
+              <i class="fa-solid fa-arrow-right"></i>
             </div>
           </div>
 
@@ -245,7 +251,7 @@
             <h3 class="titulo-categoria">Diversos</h3>
             <div class="ver-todo">
               <a id="atodo" class="ver-todo" href="#"></a>
-              <img src="./src/images/svg/flecha-derecha.svg" alt="flecha" />
+              <i class="fa-solid fa-arrow-right"></i>
             </div>
           </div>
 
@@ -393,5 +399,9 @@
       <h4>Desarrollado por Rafael Bossio</h4>
       <p>2022</p>
     </footer>
+    <script
+      src="https://kit.fontawesome.com/e40324f7c7.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

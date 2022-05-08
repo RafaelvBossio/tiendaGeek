@@ -11,8 +11,9 @@ aProducto.forEach(Element =>{
 
 aTodo.forEach(Element =>{
     Element.textContent = "ver todo";
+    Element.style.color = "black"
     Element.addEventListener("click",(e)=>{
         e.preventDefault();
-        location.href = "../src/pages/productos.html";
+        location.href = "../src/pages/login.html";
     });
 });

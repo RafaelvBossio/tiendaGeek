@@ -5,6 +5,12 @@ const listaProductos = () => {
   );
 };
 
+const admin = () => {
+  return fetch("http://localhost:3000/admin").then((respuesta) =>
+    respuesta.json()
+  );
+};
+
 //Crear Producto
 const crearProducto = (imagen, nombre, precio, categoria, descripcion) => {
   return fetch("http://localhost:3000/productos", {
@@ -44,7 +50,14 @@ const eliminarProducto = (id) => {
 };
 
 //Actualizar un producto
-const actualizarProducto = (imagen, nombre, precio, categoria, descripcion, id) => {
+const actualizarProducto = (
+  imagen,
+  nombre,
+  precio,
+  categoria,
+  descripcion,
+  id
+) => {
   return fetch(`http://localhost:3000/productos/${id}`, {
     method: "PUT",
     headers: {
@@ -58,6 +71,7 @@ const actualizarProducto = (imagen, nombre, precio, categoria, descripcion, id) 
 
 export const productosServicios = {
   listaProductos,
+  admin,
   detallesProducto,
   crearProducto,
   eliminarProducto,
