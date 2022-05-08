@@ -39,9 +39,28 @@ const eliminarProducto = (id) => {
   });
 };
 
+const detalleProducto = (id) => {
+  return fetch(`http://localhost:3000/perfil/${id}`).then((respuesta) => {
+    return respuesta.json();
+  });
+};
+
+const actualizarProducto = (imagen, nombre, precio, categoria, descripcion, id) => {
+  return fetch(`http://localhost:3000/productos/${id}`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ imagen, nombre, precio, categoria, descripcion }),
+  })
+    .then((respuesta) => respuesta)
+    .catch((err) => console.log(err));
+};
+
 export const productosServicios = {
   listaProductos,
   detallesProducto,
   crearProducto,
   eliminarProducto,
+  actualizarProducto,
 };

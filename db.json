@@ -10,27 +10,27 @@
     },
     {
       "imagen": "https://i.ibb.co/LRTJPpr/uno.png",
-      "nombre": "Control de Xbox ONE",
+      "nombre": "Control Xbox ONE",
       "precio": "300.000",
-      "descripcion": "Control para la Xbox One series s",
-      "id": "5961247e-10f9-48db-9fb1-6046816fdaa1",
-      "categoria": "consola"
+      "categoria": "consola",
+      "descripcion": "Control para la Xbox One",
+      "id": "5961247e-10f9-48db-9fb1-6046816fdaa1"
     },
     {
       "imagen": "https://i.ibb.co/Jy642Hx/cinco.png",
       "nombre": "Xbox Series S",
       "precio": "630.000",
+      "categoria": "consola",
       "descripcion": "La última Xbox lanzada por Microsoft hasta el momento.",
-      "id": "ee32465a-7837-43bb-87df-f666021a7d26",
-      "categoria": "consola"
+      "id": "ee32465a-7837-43bb-87df-f666021a7d26"
     },
     {
       "imagen": "https://i.ibb.co/RSTRRd6/cuatro.png",
-      "nombre": "Mandos Nintendo Switch",
+      "nombre": "Controles Nintendo Switch",
       "precio": "320.000",
+      "categoria": "consola",
       "descripcion": "Mandos azul y Rojo para la consola Nintendo Switch",
-      "id": "00d0dea8-bcd9-47cd-8aa8-1a605ef10957",
-      "categoria": "consola"
+      "id": "00d0dea8-bcd9-47cd-8aa8-1a605ef10957"
     },
     {
       "imagen": "https://i.ibb.co/9T8PhSf/seis.png",
@@ -124,9 +124,9 @@
       "imagen": "https://i.ibb.co/FhNG8Y0/cinco.png",
       "nombre": "Baby Yoda",
       "precio": "400.000",
+      "categoria": "starWars",
       "descripcion": "Figura representativa de Baby Yoda",
-      "id": "c6f236ff-2d96-4765-864e-8b935baf082d",
-      "categoria": "juguete"
+      "id": "c6f236ff-2d96-4765-864e-8b935baf082d"
     },
     {
       "imagen": "https://i.ibb.co/zPhx2Gx/cuatro.png",

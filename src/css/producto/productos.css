@@ -20,7 +20,7 @@
     z-index: 1;
 }
 
-.controles > .fa-solid{
+.controles > .fa-solid, .controles > a > .fa-solid{
     color: var(--color-negro);
     cursor: pointer;
 }

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agregar producto</title>
+    <link rel="icon" href="../../Vector.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="stylesheet" href="../css/botones.css" />
+    <link rel="stylesheet" href="../css/navegacion.css" />
+    <link rel="stylesheet" href="../css/contacto.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/producto/producto.css" />
+    <link rel="stylesheet" href="../css/galeria-productos.css" />
+    <link rel="stylesheet" href="../css/productos/productos.css" />
+    <link rel="stylesheet" href="../css/producto/agregar-producto.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="menu">
+        <div id="logo" class="logo">
+          <img src="../../Vector.svg" alt="" />
+          <h1 class="logoTexto"><span>Alura</span>Geek</h1>
+        </div>
+        <div class="seccionUno">
+          <div class="buscar">
+            <input
+              type="text"
+              title="buscar"
+              placeholder="¿Que deseas buscar?"
+            />
+            <img src="../images/svg/lupa-buscar.svg" alt="" />
+          </div>
+          <button id="login" class="btn primero"><p>Login</p></button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="contenedor">
+      <section class="formulario-contenedor">
+        <div class="formulario__agregarProducto">
+          <form class="form_agregarProducto" action="./productos.html" method="POST" data-form>
+            <h1>Agregar nuevo producto</h1>
+
+            <fieldset class="inputs_imagen">
+              <fieldset class="arrastrar_imagen">
+                <div class="inputArrastrar_imagen">
+                  <img src="../images/iconos-src/img.png" alt="" srcset="" />
+                  <label class="label" id="lb-inputFile" for="imagen-uno"
+                    >Arrastre para agregar una imagen para el producto</label
+                  >
+                  <input
+                    id="imagen-uno"
+                    type="file"
+                    name="imagensubida"
+                    accept="image/png, .jpeg, .jpg"
+                    disabled
+                  />
+                </div>
+              </fieldset>
+              <p>o</p>
+              <fieldset class="agregar_imagen">
+                <div class="inputAgregar_imagen">
+                  <label class="label" for="agregar_imagen"
+                    >Buscar en el dispositivo</label
+                  >
+                  <input
+                    id="agregar_imagen"
+                    type="file"
+                    name="imagensubida"
+                    accept="image/png, .jpeg, .jpg"
+                    disabled
+                  />
+                </div>
+                <div class="urlImagen nombre">
+                  <fieldset class="agregar_imagen">
+                    <input
+                      id="imagen-url"
+                      class="input-nombre"
+                      type="text"
+                      pattern="(http[s]?:\/\/)?([^\/\s]+\/)(.*)"
+                      placeholder="Ingrese URL de la imagen"
+                      title="Asegurate que es una URL de una imagen"
+                      required
+                    />
+                  </fieldset>
+                </div>
+              </fieldset>
+            </fieldset>
+
+            <fieldset class="agregar_descripcion">
+              <div class="nombre">
+                <label for="nombre">Nombre</label>
+                <input
+                  class="input-nombre"
+                  type="text"
+                  id="nombre"
+                  maxlength="29"
+                  required
+                  autocomplete="true"
+                />
+              </div>
+
+              <div class="nombre">
+                <label for="precio">Precio</label>
+                <input
+                  class="input-nombre"
+                  type="number"
+                  id="precio"
+                  required
+                />
+              </div>
+
+              <div class="nombre">
+                <label for="nombre">Categoria</label>
+                <select name="categoria" id="categoria" class="input-nombre">
+                  <option value="otro" selected disabled>Seleccionar</option>
+                  <option value="coleccion">Coleccionable</option>
+                  <option value="consola">Consolas</option>
+                  <option value="starWars">Star wars</option>
+                  <option value="juguete">Juguete</option>
+                  <option value="otro">Otro</option>
+                </select>
+              </div>
+
+              <textarea
+                class="textarea"
+                name="mensaje"
+                id="descripcion"
+                cols="60"
+                rows="8"
+                placeholder="Descripcion del producto"
+                minlength="8"
+                required
+              ></textarea>
+            </fieldset>
+            <button type="submit" class="btn primero">Agregar</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="contenido">
+        <div class="contacto">
+          <div id="logo2" class="logo">
+            <img src="../../Vector.svg" alt="" />
+            <h1 class="logoTexto"><span>Alura</span>Geek</h1>
+          </div>
+
+          <div class="nosotros">
+            <ul class="lista-us">
+              <li><a href="#">Quienes somos</a></li>
+              <li><a href="#">Politica de privacidad</a></li>
+              <li><a href="#">Programa de fidelidad</a></li>
+              <li><a href="#">Nuestras tiendas</a></li>
+              <li><a href="#">Quiero ser franquiciado</a></li>
+              <li><a href="#">Anúncie aqui</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <form class="form" action="#">
+              <h3>Hable con nosotros</h3>
+              <fieldset>
+                <div class="nombre">
+                  <label for="nombre">Nombre</label>
+                  <input
+                    class="input-nombre"
+                    type="text"
+                    id="nombre"
+                    required
+                  />
+                </div>
+
+                <textarea
+                  class="textarea"
+                  name="mensaje"
+                  id="mensaje"
+                  cols="60"
+                  rows="8"
+                  placeholder="Escribe tu mensaje"
+                  required
+                ></textarea>
+
+                <button class="btn primero" type="submit">
+                  <p>Enviar mensaje</p>
+                </button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodapie">
+      <h4>Desarrollado por Rafael Bossio</h4>
+      <p>2022</p>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+      integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="../js/agregarProducto.js"></script>
+    <script src="../js/producto.js"></script>
+    <script type="module" src="../js/editarProducto.js"></script>
+  </body>
+</html>

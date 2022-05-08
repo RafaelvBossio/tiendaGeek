@@ -18,7 +18,9 @@ const mostrarProductos = (
 </a>
 <div class="controles">
   <i class="fa-solid fa-trash-can" id="eliminar"></i>
-  <i class="fa-solid fa-pen-to-square" id="editar"></i>
+  <a href="../pages/editarProducto.html?id=${id}">
+    <i class="fa-solid fa-pen-to-square" id="editar"></i>
+  </a>
 </div>
 </div>
 <div class="info-producto">
