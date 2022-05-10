@@ -6,7 +6,7 @@ const diversos = document.querySelector("[data-diversos]");
 
 function mostrarProductos(array, categoria, cantidad, ul) {
   let bandera = 0;
-  
+
   array.forEach((element) => {
     if (element.categoria == categoria && bandera < cantidad) {
       for (var i = 0; i < 1; i++) {
@@ -24,7 +24,7 @@ function mostrarProductos(array, categoria, cantidad, ul) {
 }
 
 productosServicios.listaProductos().then((data) => {
-  mostrarProductos(data, "starWars", 6, starWars);
+  mostrarProductos(data, "starWars", 12, starWars);
   mostrarProductos(data, "consola", 6, consolas);
   mostrarProductos(data, "otro", 6, diversos);
 });

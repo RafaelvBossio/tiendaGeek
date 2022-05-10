@@ -1,19 +1,16 @@
-const aProducto = document.querySelectorAll("#aproducto");
-const aTodo = document.querySelectorAll("#atodo");
+const btnStarWars = document.querySelector("#starWar");
+const btnConsolas = document.querySelector("#consola");
+const btnDiversos = document.querySelector("#diverso");
+const starwar = document.querySelector("#star-wars");
+const consola = document.querySelector("#consolas");
+const diverso = document.querySelector("#diversos");
 
-aProducto.forEach(Element =>{
-    Element.textContent = "ver producto";
-    Element.addEventListener("click",(e)=>{
-        e.preventDefault();
-        location.href = "../src/pages/producto.html";
+function verMas(boton, contenedor){
+    boton.addEventListener("click", ()=>{
+        contenedor.classList.toggle("height");
     });
-});
+}
 
-aTodo.forEach(Element =>{
-    Element.textContent = "ver todo";
-    Element.style.color = "black"
-    Element.addEventListener("click",(e)=>{
-        e.preventDefault();
-        location.href = "../src/pages/login.html";
-    });
-});
+verMas(btnStarWars, starwar);
+verMas(btnConsolas, consola);
+verMas(btnDiversos, diverso);

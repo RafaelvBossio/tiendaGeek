@@ -1,4 +1,10 @@
 //todos Los Productos
+
+/**const url = new URL(window.location);
+    const id = url.searchParams.get("id");
+    const end = id.lastIndexOf("catg=");
+    const categoria = id.substring((end + 5),); */
+    
 const listaProductos = () => {
   return fetch("http://localhost:3000/productos").then((respuesta) =>
     respuesta.json()

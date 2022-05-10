@@ -28,6 +28,16 @@ h1,h2,h3,h4,h5,h6{
     background-color: var(--color-fondo-uno);
 }
 
+body::-webkit-scrollbar{
+    width: 0px;
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--color-negro);
+    border: solid 2px var(--color-fondo-uno);
+    border-radius: 1rem;
+}
+
 main{
     background-color: var(--color-fondo-uno);
 }

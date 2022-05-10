@@ -20,9 +20,11 @@
   <body>
     <header id="header">
       <nav class="menu">
-        <div id="logo" class="logo">
-          <img src="../../Vector.svg" alt="" />
-          <h1 class="logoTexto"><span>Alura</span>Geek</h1>
+        <div id="logo">
+          <a class="logo" href="../../index.html">
+            <img src="../../Vector.svg" alt="" />
+            <h1 class="logoTexto"><span>Alura</span>Geek</h1>
+          </a>
         </div>
         <div class="seccionUno">
           <div class="buscar">
@@ -33,7 +35,7 @@
             />
             <img src="../images/svg/lupa-buscar.svg" alt="" />
           </div>
-          <button id="login" class="btn primero"><p>Login</p></button>
+          <a href="../pages/login.html"><button id="login" class="btn primero"><p>Login</p></button></a>
         </div>
       </nav>
     </header>
@@ -58,91 +60,7 @@
             <h3 class="titulo-categoria">Productos similares</h3>
           </div>
 
-          <ul class="galeria">
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="../../src/images/star-wars/uno.jpg"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">Posillo soldado clon</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="../../src/images/star-wars/dos.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">lego darth vader</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="../../src/images/star-wars/tres.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">Figura de Yoda</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="../../src/images/star-wars/cuatro.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">Figura saldado clon</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="../../src/images/star-wars/cinco.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">figura baby yoda</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-
-            <li class="producto">
-              <div class="imagen-producto">
-                <img
-                  src="../../src/images/star-wars/seis.png"
-                  alt="imagen de producto"
-                />
-              </div>
-              <div class="info-producto">
-                <h4 class="nombre-producto">figura darth vader</h4>
-                <p class="precio-producto">60.00</p>
-                <a id="aproducto" href="#"></a>
-              </div>
-            </li>
-          </ul>
+          <ul class="galeria" data-similares></ul>
         </div>
       </section>
 
@@ -207,6 +125,6 @@
       crossorigin="anonymous"
     ></script>
     <script type="module" src="../js/producto.control.js"></script>
-    <script src="../js/producto.js"></script>
+    <script type="module" src="../js/producto.js"></script>
   </body>
 </html>

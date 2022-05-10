@@ -34,11 +34,11 @@
     },
     {
       "imagen": "https://i.ibb.co/9T8PhSf/seis.png",
-      "nombre": "Consola Retro Portatil",
+      "nombre": "Consola Retro",
       "precio": "100.00",
+      "categoria": "consola",
       "descripcion": "Consola Retro Portátil de colección",
-      "id": "f29d7a29-b604-4032-a600-2914bd997917",
-      "categoria": "consola"
+      "id": "f29d7a29-b604-4032-a600-2914bd997917"
     },
     {
       "imagen": "https://i.ibb.co/GRmsqxP/tres.png",
@@ -50,11 +50,11 @@
     },
     {
       "imagen": "https://i.ibb.co/VQVhbgc/uno.png",
-      "nombre": "Suter Estampado",
+      "nombre": "Suéter Estampado",
       "precio": "10.00",
+      "categoria": "otro",
       "descripcion": "Suéter estampado con letras en japones.",
-      "id": "66435214-167f-4c3e-ab2b-374497be2c44",
-      "categoria": "otro"
+      "id": "66435214-167f-4c3e-ab2b-374497be2c44"
     },
     {
       "imagen": "https://i.ibb.co/25zTpmX/tres.png",
@@ -98,11 +98,11 @@
     },
     {
       "imagen": "https://i.ibb.co/yV0sVHp/tres.png",
-      "nombre": "Figura de Yoda",
+      "nombre": "Figura Yoda",
       "precio": "120.000",
+      "categoria": "starWars",
       "descripcion": "Figura de Yoda de star wars",
-      "id": "460e24f5-c6b1-4922-9d33-cb6457e2e622",
-      "categoria": "starWars"
+      "id": "460e24f5-c6b1-4922-9d33-cb6457e2e622"
     },
     {
       "imagen": "https://i.ibb.co/BGYPTKy/seis.png",
