@@ -1,112 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link rel="icon" href="../../Vector.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="../css/normalize.css" />
-    <link rel="stylesheet" href="../css/estilos.css" />
-    <link rel="stylesheet" href="../css/botones.css" />
-    <link rel="stylesheet" href="../css/navegacion.css" />
-    <link rel="stylesheet" href="../css/contacto.css" />
-    <link rel="stylesheet" href="../css/footer.css" />
-    <link rel="stylesheet" href="../css/login/login.css" />
-  </head>
-  <body>
-    <header id="header">
-      <nav class="menu">
-        <div id="logo" class="logo">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="icon" href="../../Vector.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../css/normalize.css" />
+  <link rel="stylesheet" href="../css/estilos.css" />
+  <link rel="stylesheet" href="../css/botones.css" />
+  <link rel="stylesheet" href="../css/navegacion.css" />
+  <link rel="stylesheet" href="../css/contacto.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+  <link rel="stylesheet" href="../css/login/login.css" />
+</head>
+
+<body>
+  <header id="header">
+    <nav class="menu">
+      <div id="logo" class="logo">
+        <img src="../../Vector.svg" alt="" />
+        <h1 class="logoTexto"><span>Alura</span>Geek</h1>
+      </div>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <section class="contenido">
+      <div class="login">
+        <h1 class="titulo">Iniciar Sesion</h1>
+        <form class="form-sesion" action="#" data-form>
+          <input class="correo" id="correo" type="email" title="escribe tu correo" placeholder="escriba su correo"
+            required />
+          <input class="contrasenha" id="senha" type="password" title="escriba la contraseña correcta"
+            placeholder="escriba su contraseña" required />
+          <button class="btn primero" type="submit">Entrar</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="contenido">
+      <div class="contacto">
+        <div id="logo2" class="logo">
           <img src="../../Vector.svg" alt="" />
           <h1 class="logoTexto"><span>Alura</span>Geek</h1>
         </div>
-      </nav>
-    </header>
 
-    <main class="contenedor">
-      <section class="contenido">
-        <div class="login">
-          <h1 class="titulo">Iniciar Sesion</h1>
-          <form class="form-sesion" action="#" data-form>
-            <input
-              class="correo"
-              id="correo"
-              type="email"
-              title="escribe tu correo"
-              placeholder="escriba su correo"
-              required
-            />
-            <input
-              class="contrasenha"
-              id="senha"
-              type="password"
-              title="escriba la contraseña correcta"
-              placeholder="escriba su contraseña"
-              required
-            />
-            <button class="btn primero" type="submit">Entrar</button>
+        <div class="nosotros">
+          <ul class="lista-us">
+            <li><a href="#">quienes somos</a></li>
+            <li><a href="#">politica de privacidad</a></li>
+            <li><a href="#">programa de fidelidad</a></li>
+            <li><a href="#">nuestras tiendas</a></li>
+            <li><a href="#">quiero ser franquiciado</a></li>
+            <li><a href="#">anúncie aqui</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <form class="form" action="#">
+            <h3>Hable con nosotros</h3>
+            <fieldset>
+              <div class="nombre">
+                <label for="nombre">Nombre</label>
+                <input class="input-nombre" type="text" id="nombre" required />
+              </div>
+
+              <textarea class="textarea" name="mensaje" id="mensaje" cols="60" rows="8" placeholder="Escribe tu mensaje"
+                required></textarea>
+
+              <button class="btn primero" type="submit">
+                Enviar mensaje
+              </button>
+            </fieldset>
           </form>
         </div>
-      </section>
+      </div>
+    </section>
+  </main>
 
-      <section class="contenido">
-        <div class="contacto">
-          <div id="logo2" class="logo">
-            <img src="../../Vector.svg" alt="" />
-            <h1 class="logoTexto"><span>Alura</span>Geek</h1>
-          </div>
+  <footer class="rodapie">
+    <h4>Desarrollado por Rafael Bossio</h4>
+    <p>2022</p>
+  </footer>
+  <script src="../js/login/login.js"></script>
+  <script type="module" src="../js/autenticacionAdmin.js"></script>
+</body>
 
-          <div class="nosotros">
-            <ul class="lista-us">
-              <li><a href="#">quienes somos</a></li>
-              <li><a href="#">politica de privacidad</a></li>
-              <li><a href="#">programa de fidelidad</a></li>
-              <li><a href="#">nuestras tiendas</a></li>
-              <li><a href="#">quiero ser franquiciado</a></li>
-              <li><a href="#">anúncie aqui</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <form class="form" action="#">
-              <h3>Hable con nosotros</h3>
-              <fieldset>
-                <div class="nombre">
-                  <label for="nombre">Nombre</label>
-                  <input
-                    class="input-nombre"
-                    type="text"
-                    id="nombre"
-                    required
-                  />
-                </div>
-
-                <textarea
-                  class="textarea"
-                  name="mensaje"
-                  id="mensaje"
-                  cols="60"
-                  rows="8"
-                  placeholder="Escribe tu mensaje"
-                  required
-                ></textarea>
-
-                <button class="btn primero" type="submit">
-                  <p>Enviar mensaje</p>
-                </button>
-              </fieldset>
-            </form>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="rodapie">
-      <h4>Desarrollado por Rafael Bossio</h4>
-      <p>2022</p>
-    </footer>
-    <script src="../js/login/login.js"></script>
-    <script type="module" src="../js/autenticacionAdmin.js"></script>
-  </body>
 </html>

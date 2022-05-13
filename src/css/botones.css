@@ -1,28 +1,11 @@
-.botones {
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  gap: 2rem;
-}
-
 .btn {
-  position: relative;
-  text-transform: capitalize;
-  outline: none;
-  border: 2px solid black;
-  border-radius: .3rem;
-  width: 150px;
-  min-height: 2.5rem;
-  padding: .5rem;
-  display: flex;
-  justify-content: center;
+  width: max-content;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  height: 2.5rem;
   align-items: center;
-  transition: all 0.2s;
-  background: none;
-  cursor: pointer;
+  font-weight: bold;
+  background-color: transparent;
 }
 
 .btn > p {
@@ -59,22 +42,4 @@
 .tercero:active {
   transition: none;
   background: rgba(255, 255, 255, 0.685);
-}
-
-@media screen and (min-width: 0px) {
-  .botones {
-    flex-direction: column;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .botones {
-    flex-direction: row;
-  }
-}
-
-@media screen and (min-width: 1080px) {
-  .botones {
-    flex-direction: row;
-  }
 }

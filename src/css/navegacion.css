@@ -62,3 +62,44 @@
 .buscar img:active{
     transform: rotate(-10deg);
 }
+
+@media only screen and (max-width: 360px) {
+    .menu{
+        flex-direction: column;
+        margin: auto;
+        gap: 1rem;
+        height: auto;
+    }
+    .seccionUno{
+        width: 100%;
+        flex-direction: row;
+        margin: auto;
+        align-items: center;
+        gap: .5rem;
+    }
+    .buscar{
+        width: 90%;
+    }
+    .buscar input{
+        border: none;
+        outline: none;
+        background: transparent;
+        padding: 0px .5rem;
+        height: 100%;
+        width: 100%;
+    }
+    .logo{
+        margin: auto;
+        height: 10px;
+    }
+    .logo > img{
+        height: 2.5vh;
+    }
+    .logoTexto{
+        font-size: 2.5vh;
+    }
+    .buscar{
+        height: 2rem;
+        font-size: .8rem;
+    }
+  }

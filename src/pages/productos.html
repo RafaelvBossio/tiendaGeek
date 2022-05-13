@@ -1,125 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Administrar productos</title>
-    <link rel="icon" href="../../Vector.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="../css/normalize.css" />
-    <link rel="stylesheet" href="../css/estilos.css" />
-    <link rel="stylesheet" href="../css/botones.css" />
-    <link rel="stylesheet" href="../css/navegacion.css" />
-    <link rel="stylesheet" href="../css/contacto.css" />
-    <link rel="stylesheet" href="../css/footer.css" />
-    <link rel="stylesheet" href="../css/producto/producto.css" />
-    <link rel="stylesheet" href="../css/productosAdmin.css">
 
-    <script src="../js/producto.js" defer></script>
-    <script src="../js/productos.js" defer></script>
-  </head>
-  <body>
-    <header id="header">
-      <nav class="menu">
-        <div id="logo" class="logo">
-          <a class="logo" href="#logo2">
-            <img src="../../Vector.svg" alt="" />
-            <h1 class="logoTexto"><span>Alura</span>Geek</h1>
-          </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Administrar productos</title>
+  <link rel="icon" href="../../Vector.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../css/normalize.css" />
+  <link rel="stylesheet" href="../css/estilos.css" />
+  <link rel="stylesheet" href="../css/botones.css" />
+  <link rel="stylesheet" href="../css/navegacion.css" />
+  <link rel="stylesheet" href="../css/contacto.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+  <link rel="stylesheet" href="../css/producto/producto.css" />
+  <link rel="stylesheet" href="../css/productosAdmin.css" />
+
+  <script src="../js/producto.js" defer></script>
+  <script src="../js/productos.js" defer></script>
+</head>
+
+<body>
+  <header id="header">
+    <nav class="menu">
+      <div id="logo" class="logo">
+        <a class="logo" href="#logo2">
+          <img src="../../Vector.svg" alt="" />
+          <h1 class="logoTexto"><span>Alura</span>Geek</h1>
+        </a>
+      </div>
+      <div class="seccionUno">
+        <div class="buscar">
+          <input type="text" title="buscar" placeholder="¿Que deseas buscar?" />
+          <img src="../images/svg/lupa-buscar.svg" alt="" />
         </div>
-        <div class="seccionUno">
-          <div class="buscar">
-            <input
-              type="text"
-              title="buscar"
-              placeholder="¿Que deseas buscar?"
-            />
-            <img src="../images/svg/lupa-buscar.svg" alt="" />
-          </div>
-          <a href="./login.html"
-            ><button id="login" class="btn primero"><p>salir</p></button></a
-          >
+        <a href="./login.html"><button id="login" class="btn primero">salir</button></a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <section class="galeria-productos">
+      <div class="contenido">
+        <div class="categoria">
+          <h3 class="titulo-categoria">Todos los productos</h3>
+          <button id="agregarProducto" class="btn primero">
+            Agregar producto
+          </button>
         </div>
-      </nav>
-    </header>
 
-    <main class="contenedor">
-      <section class="galeria-productos">
-        <div class="contenido">
-          <div class="categoria">
-            <h3 class="titulo-categoria">Todos los productos</h3>
-            <button id="agregarProducto" class="btn primero">
-              <p>Agregar producto</p>
-            </button>
-          </div>
-
-          <div>
-            <ul class="galeria" data-productos></ul>
-          </div>
+        <div>
+          <ul class="galeria" data-productos></ul>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="contenido">
-        <div class="contacto">
-          <div id="logo2" class="logo">
-            <img src="../../Vector.svg" alt="" />
-            <h1 class="logoTexto"><span>Alura</span>Geek</h1>
-          </div>
-
-          <div class="nosotros">
-            <ul class="lista-us">
-              <li><a href="#">quienes somos</a></li>
-              <li><a href="#">politica de privacidad</a></li>
-              <li><a href="#">programa de fidelidad</a></li>
-              <li><a href="#">nuestras tiendas</a></li>
-              <li><a href="#">quiero ser franquiciado</a></li>
-              <li><a href="#">anúncie aqui</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <form class="form" action="#">
-              <h3>Hable con nosotros</h3>
-              <fieldset>
-                <div class="nombre">
-                  <label for="nombre">Nombre</label>
-                  <input
-                    class="input-nombre"
-                    type="text"
-                    id="nombre"
-                    required
-                  />
-                </div>
-
-                <textarea
-                  class="textarea"
-                  name="mensaje"
-                  id="mensaje"
-                  cols="60"
-                  rows="8"
-                  placeholder="Escribe tu mensaje"
-                  required
-                ></textarea>
-
-                <button class="btn primero" type="submit">
-                  <p>Enviar mensaje</p>
-                </button>
-              </fieldset>
-            </form>
-          </div>
+    <section class="contenido">
+      <div class="contacto">
+        <div id="logo2" class="logo">
+          <img src="../../Vector.svg" alt="" />
+          <h1 class="logoTexto"><span>Alura</span>Geek</h1>
         </div>
-      </section>
-    </main>
 
-    <footer class="rodapie">
-      <h4>Desarrollado por Rafael Bossio</h4>
-      <p>2022</p>
-    </footer>
-    <script
-      src="https://kit.fontawesome.com/e40324f7c7.js"
-      crossorigin="anonymous"
-    ></script>
-    <script type="module" src="../js/mostrarProducto.js"></script>
-    <script type="module" src="../js/eliminarProducto.js"></script>
-  </body>
+        <div class="nosotros">
+          <ul class="lista-us">
+            <li><a href="#">quienes somos</a></li>
+            <li><a href="#">politica de privacidad</a></li>
+            <li><a href="#">programa de fidelidad</a></li>
+            <li><a href="#">nuestras tiendas</a></li>
+            <li><a href="#">quiero ser franquiciado</a></li>
+            <li><a href="#">anúncie aqui</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <form class="form" action="#">
+            <h3>Hable con nosotros</h3>
+            <fieldset>
+              <div class="nombre">
+                <label for="nombre">Nombre</label>
+                <input class="input-nombre" type="text" id="nombre" required />
+              </div>
+
+              <textarea class="textarea" name="mensaje" id="mensaje" cols="60" rows="8" placeholder="Escribe tu mensaje"
+                required></textarea>
+
+              <button class="btn primero" type="submit">
+                Enviar mensaje
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodapie">
+    <h4>Desarrollado por Rafael Bossio</h4>
+    <p>2022</p>
+  </footer>
+  <script src="https://kit.fontawesome.com/e40324f7c7.js" crossorigin="anonymous"></script>
+  <script type="module" src="../js/mostrarProducto.js"></script>
+  <script type="module" src="../js/eliminarProducto.js"></script>
+</body>
+
 </html>

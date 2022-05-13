@@ -1,149 +1,133 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tienda Geek</title>
-    <link rel="icon" href="./Vector.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="./src/css/normalize.css" />
-    <link rel="stylesheet" href="./src/css/botones.css" />
-    <link rel="stylesheet" href="./src/css/estilos.css" />
-    <link rel="stylesheet" href="./src/css/navegacion.css" />
-    <link rel="stylesheet" href="./src/css/banner.css" />
-    <link rel="stylesheet" href="./src/css/galeria-productos.css" />
-    <link rel="stylesheet" href="./src/css/contacto.css" />
-    <link rel="stylesheet" href="./src/css/footer.css" />
-    <link rel="stylesheet" href="./src/css/producto/producto.css" />
-    <link rel="stylesheet" href="./src/css/producto/productos.css" />
 
-    <script src="./src/js/galeria-producto.js" defer></script>
-    <script src="./src/js/index.js" defer></script>
-  </head>
-  <body>
-    <header id="header">
-      <nav class="menu">
-        <div id="logo" class="logo">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Geek</title>
+  <link rel="icon" href="./Vector.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./src/css/normalize.css" />
+  <link rel="stylesheet" href="./src/css/botones.css" />
+  <link rel="stylesheet" href="./src/css/estilos.css" />
+  <link rel="stylesheet" href="./src/css/navegacion.css" />
+  <link rel="stylesheet" href="./src/css/banner.css" />
+  <link rel="stylesheet" href="./src/css/galeria-productos.css" />
+  <link rel="stylesheet" href="./src/css/contacto.css" />
+  <link rel="stylesheet" href="./src/css/footer.css" />
+  <link rel="stylesheet" href="./src/css/producto/producto.css" />
+  <link rel="stylesheet" href="./src/css/producto/productos.css" />
+
+  <script src="./src/js/galeria-producto.js" defer></script>
+  <script src="./src/js/index.js" defer></script>
+</head>
+
+<body>
+  <header id="header">
+    <nav class="menu">
+      <div id="logo" class="logo">
+        <img src="./Vector.svg" alt="" />
+        <h1 class="logoTexto"><span>Alura</span>Geek</h1>
+      </div>
+      <div class="seccionUno">
+        <div class="buscar">
+          <input type="text" title="buscar" placeholder="¿Que deseas buscar?" />
+          <img src="./src/images/svg/lupa-buscar.svg" alt="" />
+        </div>
+        <button id="btn-login" class="btn primero">Login</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <section class="banner">
+      <h2>Febrero promocional</h2>
+      <p>Productos seleccionados con 33% de descuento.</p>
+      <button id="ver-consolas" class="btn segundo">Ver consolas</button>
+    </section>
+
+    <section class="galeria-productos">
+      <div id="star-wars" class="contenido">
+        <div class="categoria">
+          <h3 class="titulo-categoria">Star wars</h3>
+          <div class="ver-todo">
+            <button class="btn segundo" id="starWar">Ver mas</button>
+          </div>
+        </div>
+
+        <!--Prototipo para mostrar los productos dinamicamente-->
+        <ul class="galeria" data-starWars></ul>
+      </div>
+
+      <div id="consolas" class="contenido">
+        <div class="categoria">
+          <h3 class="titulo-categoria">Consolas</h3>
+          <div class="ver-todo">
+            <button class="btn segundo" id="consola">Ver mas</button>
+          </div>
+        </div>
+
+        <ul class="galeria" data-consolas></ul>
+      </div>
+
+      <div id="diversos" class="contenido">
+        <div class="categoria">
+          <h3 class="titulo-categoria">Diversos</h3>
+          <div class="ver-todo">
+            <button class="btn segundo" id="diverso">Ver mas</button>
+          </div>
+        </div>
+
+        <ul class="galeria" data-diversos></ul>
+      </div>
+    </section>
+
+    <section class="contenido">
+      <div class="contacto">
+        <div id="logo2" class="logo">
           <img src="./Vector.svg" alt="" />
           <h1 class="logoTexto"><span>Alura</span>Geek</h1>
         </div>
-        <div class="seccionUno">
-          <div class="buscar">
-            <input
-              type="text"
-              title="buscar"
-              placeholder="¿Que deseas buscar?"
-            />
-            <img src="./src/images/svg/lupa-buscar.svg" alt="" />
-          </div>
-          <button id="btn-login" class="btn primero"><p>Login</p></button>
-        </div>
-      </nav>
-    </header>
 
-    <main class="contenedor">
-      <section class="banner">
-        <h2>Febrero promocional</h2>
-        <p>Productos seleccionados con 33% de descuento.</p>
-        <button id="ver-consolas" class="btn segundo">Ver consolas</button>
-      </section>
-
-      <section class="galeria-productos">
-        <div id="star-wars" class="contenido">
-          <div class="categoria">
-            <h3 class="titulo-categoria">Star wars</h3>
-            <div class="ver-todo">
-              <button class="btn segundo" id="starWar"><p>Ver mas</p></button>
-            </div>
-          </div>
-
-          <!--Prototipo para mostrar los productos dinamicamente-->
-          <ul class="galeria" data-starWars></ul>
+        <div class="nosotros">
+          <ul class="lista-us">
+            <li><a href="#">Quienes somos</a></li>
+            <li><a href="#">Politica de privacidad</a></li>
+            <li><a href="#">Programa de fidelidad</a></li>
+            <li><a href="#">Nuestras tiendas</a></li>
+            <li><a href="#">Quiero ser franquiciado</a></li>
+            <li><a href="#">Anúncie aqui</a></li>
+          </ul>
         </div>
 
-        <div id="consolas" class="contenido">
-          <div class="categoria">
-            <h3 class="titulo-categoria">Consolas</h3>
-            <div class="ver-todo">
-              <button class="btn segundo" id="consola"><p>Ver mas</p></button>
-            </div>
-          </div>
+        <div>
+          <form class="form" action="#">
+            <h3>Hable con nosotros</h3>
+            <fieldset>
+              <div class="nombre">
+                <label for="nombre">Nombre</label>
+                <input class="input-nombre" type="text" id="nombre" required />
+              </div>
 
-          <ul class="galeria" data-consolas></ul>
+              <textarea class="textarea" name="mensaje" id="mensaje" cols="60" rows="8" placeholder="Escribe tu mensaje"
+                required></textarea>
+
+              <button class="btn primero" type="submit">
+                Enviar mensaje
+              </button>
+            </fieldset>
+          </form>
         </div>
+      </div>
+    </section>
+  </main>
 
-        <div id="diversos" class="contenido">
-          <div class="categoria">
-            <h3 class="titulo-categoria">Diversos</h3>
-            <div class="ver-todo">
-              <button class="btn segundo" id="diverso"><p>Ver mas</p></button>
-            </div>
-          </div>
+  <footer class="rodapie">
+    <h4>Desarrollado por Rafael Bossio</h4>
+    <p>2022</p>
+  </footer>
+  <script src="https://kit.fontawesome.com/e40324f7c7.js" crossorigin="anonymous"></script>
+  <script type="module" src="./src/js/mostrarCategoria.js"></script>
+</body>
 
-          <ul class="galeria" data-diversos></ul>
-        </div>
-      </section>
-
-      <section class="contenido">
-        <div class="contacto">
-          <div id="logo2" class="logo">
-            <img src="./Vector.svg" alt="" />
-            <h1 class="logoTexto"><span>Alura</span>Geek</h1>
-          </div>
-
-          <div class="nosotros">
-            <ul class="lista-us">
-              <li><a href="#">Quienes somos</a></li>
-              <li><a href="#">Politica de privacidad</a></li>
-              <li><a href="#">Programa de fidelidad</a></li>
-              <li><a href="#">Nuestras tiendas</a></li>
-              <li><a href="#">Quiero ser franquiciado</a></li>
-              <li><a href="#">Anúncie aqui</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <form class="form" action="#">
-              <h3>Hable con nosotros</h3>
-              <fieldset>
-                <div class="nombre">
-                  <label for="nombre">Nombre</label>
-                  <input
-                    class="input-nombre"
-                    type="text"
-                    id="nombre"
-                    required
-                  />
-                </div>
-
-                <textarea
-                  class="textarea"
-                  name="mensaje"
-                  id="mensaje"
-                  cols="60"
-                  rows="8"
-                  placeholder="Escribe tu mensaje"
-                  required
-                ></textarea>
-
-                <button class="btn primero" type="submit">
-                  <p>Enviar mensaje</p>
-                </button>
-              </fieldset>
-            </form>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="rodapie">
-      <h4>Desarrollado por Rafael Bossio</h4>
-      <p>2022</p>
-    </footer>
-    <script
-      src="https://kit.fontawesome.com/e40324f7c7.js"
-      crossorigin="anonymous"
-    ></script>
-    <script type="module" src="./src/js/mostrarCategoria.js"></script>
-  </body>
 </html>

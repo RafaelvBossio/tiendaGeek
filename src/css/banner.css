@@ -24,3 +24,16 @@
 .banner > .btn:hover {
   color: var(--color-negro);
 }
+
+@media only screen and (max-width: 360px) {
+  .banner{
+    height: 250px;
+  }
+  .banner > h2{
+    font-size: 2vh;
+  }
+  .banner > .btn{
+    height: 20px;
+    width: 40%;
+  }
+}
