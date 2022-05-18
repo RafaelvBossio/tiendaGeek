@@ -143,6 +143,54 @@
       "descripcion": "Consola Nintendo Switch.",
       "id": "e2eedcda-6253-4cad-97d6-0850a37e6d56",
       "categoria": "otro"
+    },
+    {
+      "imagen": "https://www.enter.co/wp-content/uploads/2017/01/Captura-de-pantalla-2017-01-17-a-las-3.56.07-p.m..png",
+      "nombre": "Play Station 4 ",
+      "precio": "100.000",
+      "descripcion": "La consola más icónica de Sony",
+      "id": "c0c02aed-ffed-40ee-9080-7c44273bb999",
+      "categoria": "consola"
+    },
+    {
+      "imagen": "https://static.elcorreo.com/www/multimedia/201812/19/media/cortadas/a-little-slab-of-joy.-k6O-U702283799TEH-624x385@El%20Correo.JPG",
+      "nombre": "Game boy retro",
+      "precio": "50.000",
+      "descripcion": "Una de las primeras consolas portátil de Sony",
+      "id": "1adc3ad1-5237-4abf-bbaf-afcdeb1332ae",
+      "categoria": "consola"
+    },
+    {
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyNCdoQe35vJiY-ubGm_WbKOF4_0PP9-QvBg&usqp=CAU",
+      "nombre": "Play Station 3",
+      "precio": "150.000",
+      "descripcion": "La tercera generación de Play station de Sony",
+      "id": "a0b44c63-64e8-4764-b053-d10e6066e6ed",
+      "categoria": "consola"
+    },
+    {
+      "imagen": "https://www.tecnobreak.com/wp-content/uploads/2017/10/Generaciones-de-videoconsolas-4.jpg",
+      "nombre": "Nintendo entertaiment",
+      "precio": "400.000",
+      "descripcion": "Consola de Sony una de las primeras De colección",
+      "id": "3e133227-3589-4597-8262-3a18568c808e",
+      "categoria": "consola"
+    },
+    {
+      "imagen": "https://cf.shopee.com.co/file/8dc7f28c46668ecb21017aa4f7710565_tn",
+      "nombre": "Sup Plus",
+      "precio": "100.000",
+      "descripcion": "El remake de la consola portátil de Sony con 400 juegos",
+      "id": "a8856806-b722-4dcb-8be6-534d8b134f58",
+      "categoria": "consola"
+    },
+    {
+      "imagen": "https://www.ktronix.com/medias/7707850737645-003-1400Wx1400H?context=bWFzdGVyfGltYWdlc3w3Njc4NHxpbWFnZS9qcGVnfGltYWdlcy9oMmYvaDQ4Lzg5NTY1NTEzNjQ2MzguanBnfDExZTcxODgzNzgwNWRlYmVlNmIyZGY5YTk0Y2QzNjEyMzZkZDExNmFhYmI1ZDM0N2IzNmY4ODdkMDcyMjcyOWM",
+      "nombre": "Xbox 360",
+      "precio": "250.000",
+      "descripcion": "La consola más vendida hasta el momento de Microsoft.",
+      "id": "c56e41cc-4286-4599-86e9-62c2449919a2",
+      "categoria": "consola"
     }
   ],
   "admin": [

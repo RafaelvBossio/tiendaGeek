@@ -25,6 +25,6 @@ function mostrarProductos(array, categoria, cantidad, ul) {
 
 productosServicios.listaProductos().then((data) => {
   mostrarProductos(data, "starWars", 12, starWars);
-  mostrarProductos(data, "consola", 6, consolas);
-  mostrarProductos(data, "otro", 6, diversos);
+  mostrarProductos(data, "consola", 12, consolas);
+  mostrarProductos(data, "otro", 12, diversos);
 });
