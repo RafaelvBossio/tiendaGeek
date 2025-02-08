@@ -169,12 +169,12 @@
       "categoria": "consola"
     },
     {
-      "imagen": "https://www.tecnobreak.com/wp-content/uploads/2017/10/Generaciones-de-videoconsolas-4.jpg",
-      "nombre": "Nintendo entertaiment",
-      "precio": "400.000",
-      "descripcion": "Consola de Sony una de las primeras De colección",
-      "id": "3e133227-3589-4597-8262-3a18568c808e",
-      "categoria": "consola"
+      "imagen": "https://m.media-amazon.com/images/I/71wpE+ZIehL._SL1500_.jpg",
+      "nombre": "Nintendo Switch",
+      "precio": "1.000000",
+      "categoria": "consola",
+      "descripcion": "Ultima consola fabricada por Nintendo",
+      "id": "3e133227-3589-4597-8262-3a18568c808e"
     },
     {
       "imagen": "https://cf.shopee.com.co/file/8dc7f28c46668ecb21017aa4f7710565_tn",
@@ -196,7 +196,8 @@
   "admin": [
     {
       "email": "admin@gmail.com",
-      "senha": "admin2022"
+      "senha": "admin2022",
+      "id": "f919"
     }
   ]
 }
